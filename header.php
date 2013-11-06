@@ -68,7 +68,13 @@
 	    ?>
 	    <ul class="right">
 	    	<li class="divider hide-for-small"></li>
-	    	<li class="has-form"><?php get_search_form(); ?></li>
+				<?php
+					if ( is_user_logged_in() ) {
+					    echo '<li><a href="'.wp_logout_url( get_permalink() ).'" title="Logout" class="hunderline">Logout</a></li>';
+					} else {
+					    echo '<li><a href="'.wp_login_url( get_permalink() ).'" title="Login" class="hunderline">Login</a></li>';
+					}
+					?>
 	    </ul>
 	    </section>
 	</nav>
