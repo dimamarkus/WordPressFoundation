@@ -1,0 +1,3777 @@
+/* 
+--------------------------------------------------
+	DUBSPOT CSS DOCUMENT
+-------------------------------------------------- 
+*/
+
+/* --------------------------------
+	01. GLOBAL BROWSER RESET
+-------------------------------- */
+
+@import "reset.css";
+/* --------------------------------
+	02. COMMON STYLE
+-------------------------------- */
+body {
+	background: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;/* line-height: 14px; */
+	/* color: #333;  */
+}
+#leftCourseNav {
+	position: absolute;
+	left: 0;
+	margin-left: 30px;
+	width: 30px;
+	float: left;
+	height: 286px;
+}
+#rightCourseNav {
+	position: absolute;
+	right: 0;
+	margin-right: 60px;
+	width: 30px;
+	float: left;
+	height: 286px;
+}
+#leftArrowNav {
+	margin-top: 100px;
+	margin-left: 10px;
+}
+#rightArrowNav {
+	margin-top: 100px;
+	margin-right: 10px;
+}
+#site-wrapper {
+	font-size: 62.5%; /* ems rules */
+	color: #666;
+	line-height:2.5em;
+	position:relative;
+	z-index:4;
+}
+a {
+	text-decoration: none;
+	color: #990000; /*ffcc33;*/
+	outline: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #990000;
+}
+ol {
+	font-weight: bold;
+	color: #333333;
+	margin: 5px 0;
+	padding: 0 0 0 0px; /*--Distance between the order numbers--*/
+	list-style: #666;
+	font-size: 1.5em;
+}
+ol li {
+	margin: 0;
+	padding: 1px 1px;
+	color: #666666;
+	font-weight: normal;
+	list-style: square #666;/*--The bevel look is styled with various colors in the border properties below--*/
+}
+p {
+	color:#666666;
+	font-size:1.5em;
+	margin:0;
+	padding-bottom:10px;
+}
+ul {
+	font-weight: bold;
+	color: #333333;
+	margin: 5px 0;
+	padding: 0 0 0 0px; /*--Distance between the order numbers--*/
+	list-style: square;
+	font-size: 1.5em;
+}
+.alignright img {
+	display: block;
+	float: right;
+}
+.aligncenter img {
+	display: block;
+	margin: 0 auto;
+}
+ul li {
+	margin: 0;
+	padding: 1px 1px;
+	color: #666666;
+	font-weight: normal;/*--The bevel look is styled with various colors in the border properties below--*/
+}
+td {
+	font-size: 12px;
+	color: #666666;
+	padding: 1px 8px 1px 0px;
+}
+th {
+	font-size: 12px;
+	color: #333333;
+	padding: 1px 8px 1px 0px;
+}
+p {
+	color:#333333;
+	font-size:1.5em;
+	margin:0;
+	padding-bottom:10px;
+}
+blockquote {
+	margin:5px 10px;
+	padding:3px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	color:#666666;
+	padding: 0 50px;
+	/*-- background: transparent url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_quote.gif") no-repeat 0 0; --*/
+}
+h1 {
+	font-size:3em;
+	padding:10px 0;
+	color:#990000;
+}
+h2 {
+	font-size:2.4em;
+	color:#231f20;
+	font-weight:bold;
+	padding:8px 0;
+}
+h3 {
+	font-size:2em;
+	color:#231f20;
+	font-weight:bold;
+	padding:7px 0
+}
+h4 {
+	font-size:1.8em;
+	color:#231f20;
+	font-weight:bold;
+	padding-bottom:7px;
+}
+h5 {
+	font-size:1.6em;
+	color: #231f20;
+	font-weight:bold;
+	padding:7px 0
+}
+h6 {
+	font-size:1.3em;
+	color: #231f20;
+	font-weight:bold;
+	padding:7px 0
+}
+.highlight {
+	color: #990000;
+}
+/* 	COLUMNS  */
+.one_third {
+	float:left;
+	width:30%;
+	margin-right:3%;
+}
+.column_last {
+	margin-right:0;
+}
+.one_quarter {
+}
+.one_half {
+}
+/* --------------------------------
+	03. STRUCTURE
+-------------------------------- */
+
+/* SOFTWARE HOMEPAGE 
+
+-------------------------------- */
+
+
+/* 	HEADER
+-------------------------------- */
+.btmSoftware{float: left; height: 160px; width: auto; }
+.btmSoftware img{ border: none !important;}
+#header {
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/header_bg_top.jpg")repeat-x;
+	background-color: #F4F4F4;
+}
+body#category #header {
+	background: #000 url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/header_bg_top.jpg") repeat-x;
+}
+#header .brand {
+	margin: 0 auto;
+	width: 980px;
+	height: 110px;
+	overflow: hidden;
+	padding-left: 20px;
+}
+.brand .logo {
+	margin-top: 40px;
+	height: 60px;
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/header_logo_new.png") no-repeat;
+	float:left;
+	width: 210px;
+}
+.brand .header-programs {
+	float: left;
+	width: 245px;
+	height: 40px;
+	margin-top:37px;
+}
+.brand .header-programs ul {
+	list-style: none;
+}
+.brand .header-programs {
+}
+.brand .header-programs li {
+	display: inline;
+}
+.logo h1 a {
+	width: 396px;
+	height: 60px;
+	display: block;
+	text-indent: -9000px;
+}
+.brand .certified {
+	float: right;
+	margin: 14px 30px 0 0;
+}
+.certified h2 {
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/header_ableton_ctc.gif") no-repeat;
+	width: 162px;
+	height: 33px;
+	display: block;
+	text-indent: -9000px;
+}
+#header .announcement {
+	float:left;
+	margin:13px 0 0 194px;
+}
+#header .navigation {
+	height: 45px;
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/header_nav_bg2.jpg") repeat-x;
+}
+.navigation .nav-inner {
+	margin: 0 auto;
+	/*width: 1030px;*/
+	width: 979px;
+	height: auto; 
+/*	padding-right: 30px;*/
+}
+.navigation .nav-inner .menu  li a {
+	font-family:'HelveticaNeueW01-77BdCn 692722', Impact, Arial;
+	font-weight: 500;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 0 ;
+	padding: 5px 25px 6px 25px; 
+	display: inline-block;
+	border-right: #666666 1px solid;
+	text-shadow: #26230D 1px 1px 1px;
+	font-smooth: always;
+}
+.navigation .nav-inner .menu  li a:hover {
+color: #FF0;
+}
+
+.navigation .nav-inner .menu li ul{opacity: 1; background: #333; margin-left: 1px; width: 300px;}
+.navigation .nav-inner .menu li li {font-weight: 600; background: #333; opacity: 1; padding: 0 10px 0 10px; }
+.navigation .nav-inner .menu li li a{ text-shadow: none; font-size: 12px;  font-family: Helvetica, Arial, sans-serif; text-transform: none; padding: 2px 0 2px 0; width: 100%; height: 100%;  border: none; }
+.navigation .nav-inner .menu li li  a:hover { color: #000000;}
+.navigation .nav-inner .menu li  li:hover {background-color: #fff400;}
+.navigation .nav-inner .menu .sub-menu li a{ border: none; }
+.navigation .nav-inner .menu .sub-menu {margin-left: 1px;}
+
+.navigation .nav-inner .menu  li:child {
+	font-family: Helvetica condensed, Arial, sans-serif;
+	font-weight: 600;
+	margin: 0 0 3px 0;
+	padding: 0px 15px 3px 15px; 
+	display: inline-block;
+
+}
+.menuSmall{
+	float: right;
+	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+	font-stretch: narrower;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0 ;
+	font-size: 11px;
+	padding: 5px 10px 6px 10px; 
+	display: inline-block; }
+/** HIDING OLD NAV STYLING 
+
+		.navigation ul {
+			list-style: none;
+			font-size: 1.4em;
+			font-weight: bold;
+			margin-left: 23px;
+			margin-top:-1px;
+		}
+		.navigation li {
+			margin: 0; padding: 0;
+			display: inline;
+		}
+		.navigation a {
+			float: left;
+			margin: 0; padding: 0 20px 0px 0px;
+			line-height: 39px;
+			display: block;
+			color: #999;
+			outline: none;
+		}
+		.navigation li.current a {
+			color: #990000; ffcc33;
+			text-decoration: none;
+		} */
+		.navigation a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#nav-active-about #nav-about a {
+	color:white;
+}
+#nav-active-courses #nav-courses a {
+	color:white;
+}
+#nav-active-instructors #nav-instructors a {
+	color:white;
+}
+#nav-active-onlineschool #nav-onlineschool a {
+	color:white;
+}
+#navHoverBar{
+	background-color: #fff400; height: 10px; margin-top: 20px; width: 55px; position: absolute; left: 0; top: 0; z-index: 100; display: none; 
+}
+.nav-inner .menu .menu li { background-repeat:repeat-x; padding: 0px;}
+/* Dropdown Navigation Bar */
+.menu {
+ border:none;
+ border:0px;
+ margin:0px;
+ padding:0px;
+ position:relative;
+ /*height: 100%;*/
+}
+.menu ul {
+	height:35px;
+	list-style:none;
+	margin:0px 0 0 15px;
+	padding:0;
+	font-size: 1.4em;
+	font-weight: bold;
+	z-index:190;
+}
+.menu li {
+	float:left;
+	padding:0px 2px;
+}
+/*5d5d5d*/
+	.menu li a {
+	color:#999999;
+	display:block;
+	font-weight:bold;
+	line-height:34px;
+	margin-top:0px;
+	padding:0 13px;
+	text-align:center;
+	text-decoration:none;
+}
+.menu li a:hover, .menu ul li:hover a {
+	/*background: #666 url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/hover.gif") bottom center no-repeat; 
+			color:#FFFFFF; */
+			
+}
+.menu li ul {
+	background:#222;
+	display:none;
+	height:auto;
+	margin: 0px 0 0;
+	border:0px;
+	position:absolute;
+	z-index:200;
+	opacity:0.9;/*top:1em;
+		/*left:0;*/
+		}
+.menu li:hover ul {
+	display:block;
+}
+.menu li li {
+	/*background:url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/sub_sep.gif') bottom left no-repeat;*/
+	display:block;
+	float:none;
+	margin:0px;
+	padding:0px;
+}
+.menu li:hover li a {
+	background:none;
+}
+.menu li ul a {
+	display:block;
+	height:35px;
+	font-size:12px;
+	font-style:normal;
+	margin:0px;
+	padding:0px 10px 0px 14px;
+	text-align:left;
+}
+.menu li ul a:hover, .menu li ul li:hover a {
+	/*background:#666 url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/hover_sub.gif') center left no-repeat; */
+			border:0px;
+	/* color:#ffffff; */
+			text-decoration:none;
+}
+.menu p {
+	clear:left;
+}
+/*         Homepage
+-------------------------------- */
+.homepage h3 {
+	color:#990000;
+	padding-bottom:0;
+}
+.homepage .course div {
+	margin-bottom:15px;
+}
+.homepage .blogtitle {
+	font-size:14px;
+	line-height:1.3em;
+	margin:8px 0 0;
+	padding-bottom:10px;
+}
+.homepage div.homepage-alert {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #FC0;
+	border: solid 3px #990000;
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	border-radius: 10px; /* CSS3 */
+	padding: 5px 10px;
+	margin-bottom: 5px;
+}
+.homepage div.homepage-alert p {
+	font: normal 14px arial;
+	color: #990000;
+}
+.homepage div.homepage-alert h1 {
+	font: bold 16px arial;
+	color: #990000;
+}
+/* 	Featured
+-------------------------------- */
+#featured {
+	position: relative;
+	width: 100%;
+	height: 380px;
+	background-color: #000000;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+#featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-content-left {
+	margin: 20px 30px 20px 30px;
+	width: 450px;
+	float: left;
+}/*main slider content*/
+#featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-content-left .feat-image {
+	float: left;
+}
+#featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-content-left .txt-top {
+	float: left;
+	clear: both;
+	color: #CCCCCC;
+	font-size: 14px;
+	font-weight: 600;
+}
+#mini-menu-nav{position: absolute; right: 0px; top: 0px;}
+#mini-menu-nav ul li a{border: none; font-size:12px; padding-right: 8px;}
+#featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-content-left .feat-link1, #featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-content-left .feat-link2 {
+	margin-top: 8px;
+	float: left;
+	font-size: 14px;
+	font-weight: 600;
+	padding-right: 14px;
+	background-image:url(httpimages/feat-link-arrow.png);
+	background-repeat:no-repeat;
+	background-position: right; 
+}
+#featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-content-left .feat-link1 a, #featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-content-left .feat-link2 a {
+	color: #fff400;
+	text-decoration: none;
+	margin-top: -2px; 
+}
+
+
+#feat-slide-1, #feat-slide-2, #feat-slide-3{position: absolute; top: 0px; left: 0px;}
+#feat-slide-2, #feat-slide-3{ display: none;}
+
+#slider{width: 930px; position: absolute; top: 0px; left: 100px; overflow: hidden; height: 100%; clear: none;}
+
+#featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-content-left .feat-link2 a {
+	color: #fff400;
+	text-decoration: none;
+}
+#featured .featured-inner-wrap .featured-inner #slider  .featuredcourse .feat-content-left .feat-link2 { margin-left: 50px; }
+
+#featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-video {
+	float: left; 
+	margin: 20px 30px 20px 30px;
+	width: 300px;
+	float: left;
+	height: 200px;
+}
+#featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-video .feat-video-inner {
+	color: c6c6c6;
+	font-size: 14px;
+font-weight: 600;
+margin: 0 auto;
+width: 200px;
+padding-left: 50px;
+
+}
+#software a{
+	text-decoration: none;
+	}
+#software a img{ border: none;}
+#featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-video .feat-video-title {
+	color: #FFF400;
+font-size: 14px;
+font-weight: 600;
+padding-right: 14px;
+background-image: url(httpimages/feat-link-arrow.png);
+background-repeat: no-repeat;
+background-position: right;
+width: 100px;
+margin: 0 auto;
+text-align: right;
+}
+#featured .featured-inner-wrap .featured-inner #slider .featuredcourse .feat-video .feat-video-title a{ text-decoration: none; color: #fff400;}
+
+/*#featured {
+	width: 100%;
+	height: 336px;
+	background-color: #000000;
+}
+#featured.music-production {
+	height: 360px;
+}*/
+/*body#category #featured {
+	background: #000 url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/splash_bg2.jpg") center no-repeat;
+}*/
+
+#featured #featured-inner-bg{
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	z-index: 2;
+	height: auto;
+	overflow: hidden;
+}
+#featured #featured-inner-bg img{
+	display: block;
+	margin: 0 auto;
+	height: 336px;
+}
+#featured .featured-inner-wrap {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	z-index: 5;
+	height: 286px;
+	overflow: hidden;
+	
+	/*background:url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/featured_inner_bg.png") repeat-x;*/
+}
+#featured .featured-inner {
+	position: relative;
+	height: 380px;
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+	padding-left: 100px;
+}
+/*#featured.music-production .featured-inner {
+	padding-left: 0px;
+	height: 360px;
+
+}*/
+
+
+.featvideo {
+	float: right;
+	width: 540px;
+	margin:0px 0 0 16px;
+	position: relative;
+	top: 30px;
+	left: -20px;
+}
+#homevideo { /*
+	[disabled]position:relative;
+*/
+	margin-top: 25px;
+	margin-left: 25px;
+	/* [disabled]z-index:5;
+*/
+}
+.featvideo h2 {
+	margin: 10px 0 0;
+	font-size: 1.8em;
+}
+/*.featvideo p {
+			margin: 3px 0px 0px 20px;
+			font-size: 1.1em;
+			color: #999;*/
+		}
+.featvideo p img {
+	margin: 21px 0px 0px 0px;
+}
+.featcourse, .shortdesc {
+	float: left;
+	margin: 0px 20px 0 0;
+	width: 380px;
+	height:	380px;
+	background-repeat: no-repeat;
+}
+.featuredcourse {
+	float: left;
+	width: 930px;
+	height: 286px;
+}
+.featcourse {
+	margin: 25px 20px 0 0;
+}
+.featcourse a:hover {
+	text-decoration: none;
+}
+.featcourse h2.explore {
+	padding:0 28px;
+	font-size: 1.4em;
+	color: #fff;
+	height: 19px;
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_arrow.png") 5px 5px no-repeat;
+}
+.featcourse .courseitem {
+	overflow: hidden;
+	margin: 12px 0 0;
+	padding: 0 10px;
+	height: 60px;
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/splash_course_bg.png") no-repeat;
+}
+.courseitem img {
+	float: left;
+	margin: 10px 15px 0 0;
+}
+.courseitem h2 {
+	margin: 4px 0 0;
+	font-size: 2.0em;
+	line-height:1.8em;
+	color: #fff;
+	padding:0;
+}
+.courseitem p {
+	margin-top:-7px;
+	font-size: 1.4em;
+	color: #999;
+}
+a:hover .courseitem h2 {
+	color: #990000;
+}
+.shortdesc h2 {
+	margin: 45px 0 0;
+	font-size: 2.8em;
+	color: #fff;
+}
+.shortdesc h3 {
+	margin: 10px 0 0;
+	font-size: 2.2em;
+	font-weight: normal;
+	color: #fff;
+	line-height: 30px;
+}
+.shortdesc .panel {
+	margin: 30px 0 0;
+	padding: 10px;
+	height: 100px;
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/splash_panel_bg.png");
+}
+/*(.shortdesc .panel.one-link {
+	height: 40px;
+	margin-top: 280px;
+}*/
+.shortdesc .panel.two-link {
+	height: 65px;
+	margin-top: 275px;
+}
+.panel h4 {
+	margin: 0;
+	font-size: 1.3em;
+	color: #fff;
+}
+.panel ul {
+	margin: 5px 0 0;
+	list-style: none;
+	font-size: 1.3em;
+}
+.panel ul li {
+	padding-left: 15px;
+	line-height: 28px;
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_arrow_down.png") left no-repeat;
+}
+.panel ul li.rightarrow {
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_arrow_next.png") left no-repeat;
+}
+.panel a {
+	color: #FF9900;
+	text-decoration: underline;
+	font-size: 1.1em;
+}
+.panel a:hover {
+	color: #ffcc33;
+	text-decoration: none;
+}
+/* 	CONTENT
+-------------------------------- */
+.horWrapper .container. .content {float: left;}
+#content {
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/content_bg.gif") repeat-y scroll center top #F4F4F4;
+	overflow: hidden;
+}
+#content .content-inner {
+	margin: 14px auto;
+	width: 980px;
+	overflow: hidden;
+}
+/* 	Course
+-------------------------------- */	
+
+#content .software, #content .popular {
+	float: left;
+	width: 480px;
+	overflow: hidden;
+}
+.software h3 {
+	margin: 0 0 0 20px;
+}
+.software img {
+	float: left;
+	margin: 20px 0 0 20px;
+	width: 140px;
+}
+.popular .course {
+	float: left;
+	margin-left: 20px;
+	width: 220px;
+}
+/*		.course h3 {
+			margin: 20px 0 0;
+		}
+		.course h4 {
+			margin:-7px 0;		
+			}*/
+		.course a {
+	color:#333333;
+}
+.course p {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	height:24px;
+	margin:12px 0 0 -2px;
+	padding:0 0 0 25px;
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_plus.gif") 0 0 no-repeat;
+}
+.course p a {
+	color: #993300;
+}
+.course p a:hover {
+	text-decoration: none;
+}
+.course .rounded-corners {
+	margin: 20px 0 -7px 0;
+}
+/* 	Post
+-------------------------------- */	
+
+#content .post, #content .interior, #content .termlist {
+	clear: left;
+	margin: 0 auto;
+	padding-bottom: 14px;
+	width: 980px;
+	/*	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/content_bg2.gif") top repeat-x;
+*/	overflow: hidden;
+}
+.post .blog {
+	float: left;
+	margin: 0;
+	padding-left: 20px;
+	width: 960px;
+	overflow: hidden;
+}
+.menu-header-nav-container {width: 800px;}
+.featured-cat-h1{margin: 3px 2px 5px 2px; font-size: 16px; text-transform: uppercase; font-family: "HelveticaNeueW01-67MdCn 692722", Helvetica, Arial, Sans-serif; font-stretch: extra-condensed;}
+.post .blog .blogpost .featured-cat-h1  {width: 230px; }
+.post .blog .blogpost .featured-cat-h1 a { font-size: 18px; padding-left: 10px;text-decoration: none; color: #666666; font-family:'HelveticaNeueW01-77BdCn 692722','Arial';}
+.blog .blogpost .featured-cat {	
+	padding: 5px;
+	width: 205px;
+	height: 155px;}
+.blog .blogpost .featured-cat:hover{background:url(httpimages/post_bg.png) no-repeat;}
+.post h3 {
+	margin: 5px 0 0;
+	line-height: 30px;
+}
+.blog .blogpost {
+	float:left;
+	list-style:none outside none;
+	margin:15px 24px 0 0;
+	width:200px;
+	padding: 0px;
+}
+.post .blog .blogpost a {
+	color: #000;
+	font-weight: 600; 
+}
+.blog .blogpost a:hover {
+	color: #CC3300;
+	text-decoration: underline; 
+}
+.blog ul {
+	margin:0 10px 20px 1px;
+}
+.post img {
+	border: 1px solid #999;
+}
+.post h4 {
+	margin: 6px 0 0;
+	font-size: 1.6em;
+	font-weight: normal;
+	line-height: 21px;
+}
+.post .video {
+	float: right;
+	margin-right: 20px;
+	width: 220px;
+	overflow: hidden;
+}
+.video h3 {
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/youtube_logo.jpg") 117px 0 no-repeat;
+}
+.video img {
+	margin: 15px 0 0;
+	height:150px;
+}
+.video a {
+	color: black;
+}
+.video a:hover {
+	color: #990000;
+}
+#content .breadcrumb {
+	padding: 18px 20px;
+}
+.breadcrumb p {
+	margin: 0;
+	font-size: 1.1em;
+	color: #999;
+	line-height: normal;
+}
+/**********************
+
+        Sidebar
+
+        **************************/
+
+	.interior .sidebar {
+	float: left;
+	margin-left: 20px;
+	width: 130px;
+}
+.interior .sidebar li {
+	height: 0px;
+}
+.interior .sidebar #menu-sidebar-left a {
+	color: #666;
+	font-size: 13px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	line-height: 21px;
+	font-weight: normal;
+}
+.interior .sidebar #menu-sidebar-left li {
+	padding: 5px 0px;
+	margin: 0px;
+	border-bottom: 1px solid #e1e1e1;
+	width: 130px;
+	height: 21px;
+}
+.interior .sidebar + .main {
+	float: right;
+	margin-right: 20px;
+	width: 780px;
+}
+.interior .main {
+}
+.interior ul {
+	margin: 16px 0 0;
+	list-style: none;
+	font-size: 1.5em;
+}
+.interior ul li {
+	margin: 0;/**border-bottom: 1px solid #e1e1e1;**/
+		}
+.interior .top {
+	margin-top: 5px;
+}
+/* Social Media Buttons  */
+#social-frame {
+	position: relative;
+	left: 100px;
+}
+#social iframe, #social a {
+	/*    float:right;
+    padding:21px 24px 7px 0;*/
+position: relative;
+	left: 296px;
+	padding:15px 0px 5px 0;
+	overflow: hidden;/*display: none;*/
+}
+#social #facebook {
+	display:inline;
+}
+#social #tweet {
+	padding-left:17px;
+	display:inline;
+}
+#sharethis {
+	padding-left:20px;
+	display:inline;
+	position:relative;
+	bottom:2px;
+}
+#social-bumper {
+	width:70%;
+	float:left
+}
+#social a.addthis_button {
+	padding:0 0 5px 13px;
+	position:relative;
+	top:-7px;
+}
+/* 	Course/Program Category Page
+-------------------------------- */	
+
+#content .coursedetail {
+	padding: 0 20px 10px 20px;
+	overflow: hidden;
+}
+.about-programs {
+	padding: 1px 0 10px 0;
+	clear:both;
+}
+.about-programs ul {
+	margin-left:254px;
+	color: #666;
+	font-size:1.4em;
+	line-height:1.9em;
+	position:relative;
+}
+.col-half {
+	float:left;
+	width:47%;
+	padding-right:2%;
+}
+.coursedetail .coursedesc {
+	float: left;
+	width: 540px;
+}
+.coursedesc h4, .about-programs h4 {
+	margin: 15px 0 0;
+	color: #990000;
+}
+.coursedesc h3, .about-programs h3 {
+	margin: 37px 0 6px;
+	font-size: 2.4em;
+	color: #990000;
+}
+.coursedesc h5, .about-programs h5 {
+	margin: 0 0 5px;
+	font-size: 1.4em;
+}
+.ableton .coursedesc h4 {
+	color: #64b400;
+}
+.coursedesc p, .about-programs p {
+	/* margin: 0;
+			font-size: 1.5em;
+			color: #666;
+			line-height: 22px; */
+			padding-bottom:10px;
+}
+.coursedetail .courseinfo {
+	float: left;
+	margin-left: 30px;
+	width: 370px;
+}
+.courseinfo img, .courseinfo .testimonial {
+	margin: 25px 0 0;
+}
+.testimonial p:first-child {
+	margin: 0;
+	padding: 15px 0 0;
+	/*font-size: 1.6em; */
+				color: #333;
+	line-height: 24px;/* background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_quote.gif") 0 0 no-repeat; */
+			}
+.testimonial p {
+	margin: 10px 0 0;
+	padding: 13px 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #999;
+	margin-top: 30px;/* background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_quote2.gif") 0 0 no-repeat; */
+			}
+.testimonial sub, .testimonial sup {
+	color:#990000;
+	display:block;
+	float:none;
+	font-size:4em;
+	line-height:0.1em;
+	margin-left:-3px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-style:	normal;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	0;
+	text-align:	start;
+	vertical-align:	baseline;
+}
+#quotes li sub, .testimonial li sup {
+	color:#990000;
+	display:block;
+	float:none;
+	font-size:3em;
+	line-height:0.1em;
+	margin-left:-3px;
+	font-family:	"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style:	normal;
+	text-transform:	none;
+	text-decoration:	none;
+	letter-spacing:	normal;
+	word-spacing:	0;
+	text-align:	start;
+	vertical-align:	baseline;
+}
+.ableton .testimonial sub, .ableton .testimonial sup {
+	color: #64b400;
+}
+.testimonial sub {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	margin-bottom:-25px;
+	margin-top:25px;
+}
+.testimonial sup {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	position:absolute;
+	margin-top:-5px;
+}
+.courseinfo .social-programpage {
+	height: 33px;
+	margin-top:-19px;
+	padding-bottom:10px;
+}
+#pc_socialmedia {
+	margin-left:220px;
+	position:absolute;
+	margin-top:10px;
+}
+#pc_socialmedia iframe {
+	float: left;
+	clear: right;
+}
+#pc_facebooklike {
+	margin-left: 3px;
+}
+/* ableton specific styling */
+		.ableton .list h3 {
+	color: #64b400;
+}
+.ableton .list div.contactus a {
+	color: #64b400;
+}
+.ableton .list .item .see_dates {
+	color: #64b400;
+}
+.ableton .list .item .moreless {
+	color: #64b400;
+	background: url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_expand_collapse_ableton.png') no-repeat scroll 0 -25px transparent;
+}
+.ableton .list .item .moreless.closed {
+	background: url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_expand_collapse_ableton.png') no-repeat scroll 0 0 transparent;
+}
+.ableton .list .item a.register {
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/register_button.png") no-repeat scroll 0 -48px transparent;
+}
+/* cat page specific list styling */
+		.list .item .price {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 43px;
+	display:none;
+}
+.list .item .price-inner {
+	display:block;
+	font-size:1.1em;
+	font-weight:bold;
+	margin:-15px 0 0;
+	padding:0 0 10px;
+}
+.list .item .price-inner .sale {
+	color: red;
+}
+.list .item .price-inner p {
+	font-weight: normal;
+	margin-top: 6px;
+}
+.list .item .price .no-price {
+	font-size: 0.8em;
+	width: 100px;
+	margin: 0px -40px 0px -3px;
+}
+.list .item .price .no-price a {
+	color: #990000;
+}
+/*original see_dates style  .list .item .see_dates { color: #990000; font-size: 1.2em; cursor: pointer; } */
+		.list .item .see_dates {
+	color: #990000;
+	color:#990000;
+	cursor:pointer;
+	display:block;
+	font-size:1.2em;
+	padding-right:5px;
+	text-align:right;
+}
+.list .item a.register {
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/register_button.png") no-repeat scroll 0 0 transparent;
+	width: 160px;
+	height: 48px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+.list .item a.register span {
+	display: none;
+}
+.list .item .list_col3 a.payment_plan, .list .item .list_col3 span.payment_plan {
+	color: #999;
+	font-size: 1.4em;
+	margin-right:4px;
+	float:right;
+}
+.list .item a.payment_plan:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+.ableton .list .more a.payment_plan { /* color: #64b400; font-size:1.5em; */
+}
+/* payment plan details link */
+a.payment_plan_online:hover, a.payment_plan:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: #900
+}
+a.payment_plan_online, a.payment_plan {
+	color: #666
+}
+.payment_plan + .overlay {
+	display:none;
+}
+.payment_plan_online + .overlay {
+	display:none;
+}
+.overlay {
+	-moz-border-radius:15px;
+	background:none repeat scroll 0 0 white;
+	border:6px solid #888888;
+	clear:both;
+	float:right;
+	padding:20px 2px 3px 23px;
+	position:absolute;
+	right:164px;
+	top:650px;
+	width:603px;
+	border-radius:15px;
+	z-index:1000000;
+}
+.overlay .payment_plan_close {
+	display:block;
+	text-indent:-5000px;
+	cursor:pointer;
+	width:30px;
+	background:url(httpimages/payment-overlay-close-big.png) no-repeat;
+	height:34px;
+	position:absolute;
+	right:-16px;
+	top:-18px;
+	width:35px;
+}
+.overlay .copy {
+	float:left;
+	width:42%;
+}
+.overlay img {
+	position:absolute;
+	right:0;
+	top:0;
+}
+.list .item .text_description .overlay .copy p, .list .item .text_description .overlay .paymentcontact {
+	font-size:1.5em;
+}
+.overlay .copy p {
+	clear:left;
+	display:block;
+	float:left;
+	/* line-height:1.5em; */
+margin:0;
+	padding:0 17px 10px 0;
+}
+.overlay h1 {
+	/*display:inline;
+float:left;*/
+font-size:2.1em;
+	padding:0 0 8px 0;
+}
+.overlay div.payments {
+	float:left;
+	font-size:1.5em;
+	width:53%;
+}
+.overlay .due_today {
+	background:none repeat scroll 0 0 #FFFFCC;
+	border:1px solid #FFCC00;
+	clear:both;
+	color:#CC0000;
+	float:left;
+	font-weight:bold;
+	padding:6px !important;
+}
+.overlay .text {
+	float:left;
+}
+.overlay .number {
+	float:right;
+}
+.overlay .payment {
+	clear:left;
+	margin:-1px 0 0;
+	padding:10px 0 0 7px;
+	width:100%;
+}
+.overlay .number {
+	font-weight:bold;
+}
+.overlay .total {
+	font-weight:bold;
+}
+.overlay .paymentcontact {
+	clear:both;
+	float:right;
+	font-size:1.5em;
+	padding:0 20px 9px 29px;
+}
+.overlay .text {
+	font-size: 0.9em;
+}
+.overlay .payments .due_today {
+	color:#C00;
+}
+.overlay h1 {
+	font-size: 1.5em;
+	margin: 0px;
+	outline: 0px;
+	text-align: left;
+}
+.overlay p {
+	font-size: 1em;
+	line-height: 1.7em;
+	padding-right: 12px;
+}
+.overlay text {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	font-weight: normal;
+}
+.overlay .payments {
+	font-size: 1.1em;
+	margin-bottom: 4px;
+}
+.overlay .paymentcontact {
+	font-size: 1em;
+	color:#666;
+}
+.overlay .paymentcontact a {
+	color: #900;
+}
+.overlay .total {
+	margin-top: 4px;
+	font-weight:bold;
+}
+/* .overlay {position: absolute; color:#666; left: 20px; top: -274px; } */
+
+ .overlay {
+	display: block;
+	font-size: 0.7em;/* top: 227px; */
+/* left: 361px; */
+/* margin-left: 0px; */
+/* padding-left: 0px; */
+/* padding-right: 20px; */ }
+.overlay .payments {
+	font-size: 1.1em;
+	width: 56%;
+	padding: 3px 0;
+}
+/* .overlay .copy { width: 37%; } */
+
+.more .overlay {
+	position: absolute;
+	left:0px;
+	top:501px;
+}
+.list .items .disclaimer {
+	color: #999999;
+	font-size: 1.3em;
+	padding-left: 10px;
+	float: left;
+	background: no-repeat url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/asterisk_gray.png');
+}
+.grid {
+}
+.grid h2 {
+	margin:16px 0 22px;
+}
+.grid h4 {
+	padding: 10px 0px;
+	clear:both;
+}
+.grid h4 a {
+	color:#333333;
+}
+.grid p {/* font-size:1.4em; */
+}
+.grid .squares {
+	position:relative;
+}
+.grid .square {
+	height: 368px;
+	width: 260px;
+	margin: 0 26px;
+	float: left;
+	position:relative; /*margin: 0px 30px 0px 40px;*/
+}
+.squares .first {
+	clear:left;
+}
+.grid .square-last {
+	margin-right:0;
+}
+.grid .square p {
+	line-height: 18px; /*padding:4px 0 16px;*/
+}
+.grid .square .see_courses {
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-left:20px;
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_arrow_next_yellow.png") no-repeat center left;
+}
+/**.grid .square.sq_middle { margin: 0 30px }**/
+				.grid .square.row2 {
+	margin-bottom:20px;
+}
+.grid #socialmedia {
+	margin: 0px 0 0 750px;
+}
+.music-production #socialmedia {
+	margin:0px 0 0 750px;
+}
+#socialmedia div#facebook-share {
+	margin-right: 14px;
+}
+.grid div.courses-descrip {
+	margin:auto;
+	width:94%;
+	padding-bottom:14px;
+}
+.course-catalog h3 {
+}
+.grid .courses-organization div {
+	float:left;
+	padding-right:56px;
+	width:29%;
+	padding-bottom:15px;
+}
+.grid .courses-organization .last {
+	padding-right:0;
+	float:right;
+}
+.grid .courses-organization h4 {
+	font-size:1.9em;
+	padding-top:16px;
+}
+.courses-descrip {
+	clear:both;
+}
+#musicprod-descrip p {
+	padding-bottom:23px;
+}
+/* 	Instructor Page
+-------------------------------- */	
+
+.instructors.list h1 {
+}
+#content .instructors.list, #content .guest-instructors.list {
+	border-top: 0px;
+}
+.instructors.list > p, .guest-instructors > p {
+	width: 100%;
+	padding-top:11px;
+}
+.instructors.list .text_description, .guest-instructors .text_description {
+}
+#content .instructors.list .item, #content .guest-instructors .item {
+	width:100%;
+	border-top-width: 0px;
+	border-bottom: 1px solid #ccc;
+}
+/* 	Press Page
+-------------------------------- */
+
+#press_header h1 {
+	color: #333;
+}
+#press_info {
+	font-size: 1.1em;
+	color: #333;
+	text-align: right;
+}
+#press_header {
+	margin-top: 20px;
+}
+#press_header td {
+	vertical-align: middle;
+}
+#press_header tr td:first-child {
+	width: 70%;
+}
+#press_header a {
+	color: red;
+}
+.press.list {
+	width: 780px;
+	padding: 0px;
+}
+.press.list .items {
+	width: 780px;
+}
+.press.list .item {
+	padding-right:20px;
+}
+.press.list h2 {
+	font-weight: bold;
+	color: #333;
+}
+.press.list h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #666666;
+	margin:0;
+}
+.press.list .item .list_col1_thumbnail {
+	padding-right: 0px;
+}
+/* 	Partners Page
+-------------------------------- */
+#partners_header {
+	margin-left: -4px;
+}
+.partners.list h1 {
+}
+.partners.list h2 {
+}
+#content .partners.list {
+	border-top: 0px;
+}
+#content .partners.list .text_description {
+}
+#content .partners.list .items {
+	margin-top: 0px;
+}
+#content .partners.list .item {
+	width:100%;
+	border-top-width: 0px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+/* 	Facilities
+-------------------------------- */
+#page-content .facilities {
+}
+/* Default Page Styles
+-------------------------------- */
+
+#page_content {
+	width: 540px;
+}
+#page_content h1 {
+	padding:17px 0;
+}
+#page_content h4 {
+}
+/* 	List Styles ( program/course categories, instructors, partners, press releases)
+-------------------------------- */	
+	
+.list {
+	padding: 0 20px 0 20px;
+	width: 940px;
+	float: left;
+	border-top: 1px solid #ccc;
+}
+.list h3 {
+	margin: 7px 0 0;
+	font-size: 2.4em;
+	color: #990000;
+}
+.list > div.contactus {
+	float: right;
+	margin: -6px 25px 0;
+	font-size: 1.4em;
+	font-weight: normal;
+}
+.list > div.contactus a {
+	color: #990000;
+	font-weight: bold;
+}
+.list > p {
+	margin: 0;
+	width: 525px;
+}
+/* list wrappers */
+	.list .items {
+	width: 920px;
+	margin-top:10px;
+	position:relative;
+}
+.list .item {
+	border-top: 1px solid #cccccc;
+	padding-top: 17px;
+	padding-bottom: 22px;
+	float: left;
+	clear: right;
+	position:relative;
+	clear:both;
+}
+/* list col 1 thumbnail */
+		.list .item .list_col1_thumbnail {
+	width: 220px;
+	height: 140px;
+	margin-right: 20px;
+	float: left;
+	clear: right;
+}
+/* list col 2 */
+		.list .item .list_col2 {
+	width: 520px;
+	float: left;
+	clear: right;
+	margin-right:10px;
+	width:510px;
+}
+.list_col2_full {
+	width: 670px;
+	float: left;
+	clear: right;
+	margin-right:10px;
+}   /* temporary fullwidth column for online school */
+.list .item h4 {
+	font-size: 2.1em;
+	padding-bottom:0;
+}
+.list .item h5 {
+	font-size:1.4em;
+	padding-bottom:3px;
+}
+.list .item .excerpt {
+	display: block;
+	margin-bottom:10px;
+}
+.list .item .more {
+	display: none;
+}
+.list .item .moreless {
+	cursor:pointer;
+	font-weight:bold;
+	height:20px;
+	padding-left:25px;
+	padding-top:1px;
+	font-size:1.3em;
+}
+.list .item .moreless.closed {
+	background:url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_expand_collapse.png") no-repeat scroll 0 0 transparent;
+}
+.list .item .excerpt p {
+	padding: 0px;
+	line-height:1.5em;
+}
+.list .item ul {
+	margin: 10px 0px 2px 15px;
+}
+.list .item p + ul {
+	margin: 0px 0px 2px 15px;
+}
+/*			.list .item p { padding: 10px 0px; }
+*/			.list .item .text_description .more {
+	font-size:1.5em;
+	position:relative;
+}
+.list .item .text_description .more p {
+	font-size:1em;
+}
+/* feature-less pages need these sytles to mantain uniformity */
+			.interior .list .item .excerpt {
+	margin: 0;
+}
+/* list col 3*/
+		.list .item .list_col3 {
+	float: left;
+	clear: right;
+	position:relative;
+}
+/* list bottom */
+		a.top {
+	width: 40px;
+	float: right;
+	font-size: 1.4em;
+	color: #999999;
+	cursor: pointer;
+	text-decoration: none;
+	background: url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_arrow_top.png') no-repeat scroll 25px 5px transparent;
+}
+/* Coupon Codes 
+-------------------------------- */
+.sidebarCouponCodeForm {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #D2D2D2;
+	border-radius: 10px;
+	margin: 0 0 10px 0;
+	padding: 7px 14px;
+	position: relative;
+	text-align: left;
+	width: 200px;
+}
+.couponCodeError {
+	background: #ffcccb;
+	border: 1px solid #c00;
+	border-radius: 5px;
+	color: #c00;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 15px;
+	margin: 0 0 10px 0;
+	padding: 3px 5px 5px 5px;
+}
+#couponCodeTitle {
+	font-size: 17px !important;
+}
+.couponCodeSpinner {
+	bottom: 5px;
+	height: 25px;
+	position: absolute;
+	right: 5px;
+	width: 25px;
+}
+#couponCodeText {
+	font-size: 14px;
+	margin: 0 3px 0 0;
+	padding: 3px;
+	width: 116px;
+}
+#couponCodeButton {
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/button_black_apply.png);
+	border: 0;
+	color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	height: 24px;
+	display: inline-block;
+	width: 70px;
+}
+#couponCodeButton :hover {
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/wp-content/themes/dubspotheme/images/button_black_apply_hover.png);
+}
+#couponCodeMessage {
+	font-size: 12px;
+	line-height: 17px;
+	padding: 8px 0 3px 0;
+}
+#couponCodeSuccessCheck {
+	float: left;
+	margin: 5px 0 0 0;
+}
+#couponCodeSuccessDescription {
+	font-size: 13px;
+	margin: 0 0 3px 67px;
+}
+#couponCodeSuccessRemove {
+	color: #d00;
+	font-size: 13px;
+	margin: 0 0 0 67px;
+}
+#couponCodeRedX {
+	margin: 0 4px 0 0;
+	vertical-align: -25%;
+}
+/* FAQ
+-------------------------------- */
+
+#faq_index {
+	margin-bottom:80px;
+}
+#faq_index h2 {
+	font-size:1.3em;
+	text-transform:uppercase;
+}
+#faq_index li {
+	padding: 0px 0px;
+	border-bottom: 1px solid #ccc;
+}
+#faq_index a {
+	font-weight: bold;
+	display: block;
+}
+#faq_index a:link, #faq_index a:visited, #faq_index a:active {
+	color: #666;
+	padding:6px 2px;
+}
+#faq_index a:hover {
+	color: #666;
+	background-color: #FFCC33;
+	text-decoration: none;
+}
+.faq h3 {
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	font-size:1.75em;
+	font-weight:normal;
+	margin:30px 0 15px 0;
+	padding:10px 0;
+	text-transform:uppercase;
+}
+.faq hr {
+	display: none;
+}
+#faq_contact_register {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #D2D2D2;
+	border-radius: 15px 15px 15px 15px;
+	height: auto;
+	margin-top: 10px;
+	padding: 18px;
+	text-align: left;
+	width: 190px;
+}
+#faq_contact_register h3 span {
+	color:#333333;
+	font-size: 17px
+}
+#faq_contact_register p {
+	font-size: 12px;
+	color: #666;
+}
+#faq_contact_register p strong {
+	font-size:13px;
+	font-weight: bold
+}
+#faq_contact {
+	-moz-border-radius:15px 15px 15px 15px;
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #999999;
+	height:137px;
+	margin-left:597px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px;
+	padding:18px;
+	position:fixed;
+	width:120px;
+	top:226px;
+}
+#faq_contact span {
+	font-weight: bold;
+	font-size: 1.6em;
+}
+#faq_contact p {
+	color: #666;
+}
+#faq_contact a {
+	font-weight: bold; /* font-size: 1.4em; */
+}
+.faq {
+	color: #333333;
+}
+.faq p + h4, .faq ul + h4 {
+	margin-top: 15px;
+}
+.faq a.top {
+	margin-top:-46px;
+}
+.interior .faq > ul {
+	border-bottom: 0;
+	margin: 0px;
+	font-size: 1.2em;
+}
+.interior .faq li {
+	border-bottom: 0;
+	list-style:disc outside none;
+	margin-left:15px;
+	color: #666;
+}
+/* 	FOOTER
+-------------------------------- */
+#footer {
+	clear:both;
+	margin: 0;
+	padding: 35px 0 0;
+	background: #000 url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/footer_bg.jpg") top center no-repeat;
+}
+.footer-inner {
+	margin: 0 auto;
+	padding: 20px 0 30px 0;
+	width: 980px; /*height: 462px;*/
+	border: solid #666;
+	border-width: 1px 1px 0 1px;
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/footer_bg2.png");
+}
+#footer .submenu {
+	overflow: hidden;
+}
+.submenu .submenuitem {
+	float: left;
+	margin-left: 20px;
+	width: 140px;
+}
+.submenuitem h4 {
+	font-size: 1.3em;
+	color: #fff;
+}
+#footer .submenuitem h4 {
+	font-size: 12px;
+}
+.submenuitem ul {
+	margin: 2px 0 0;
+	list-style: none;
+	font-size: 1.2em;
+}
+.submenuitem ul li {
+	line-height: 22px;
+}
+.submenuitem a {
+	color: #999;
+}
+.submenuitem a:hover {
+	color: #ffcc33;
+	text-decoration: none;
+}
+.submenu .newsletter {
+	float: left;
+	margin-left: 40px;
+	width: 280px;
+}
+.newsletter h4 {
+	font-size: 1.8em;
+	color: #ffcc00;
+}
+.newsletter p {
+	margin: 10px 0 0;
+	font-size: 1.2em;
+	color: #999;
+	line-height: 18px;
+}
+.submenu .social-links {
+	border:2px none;
+	margin-right:36px;
+	width:98px;
+}
+.submenu .social-links img {
+	height:30px;
+	padding:7px 5px 0 1px;
+	width:30px;
+}
+#footer .copyright {
+	text-align: center; /*margin: -45px 0 0 0; */
+}
+.copyright #logos {
+	margin:60px 0 25px 320px;
+	padding:0 0 25px;
+}
+.copyright #logos a {
+	float:left;
+	position:relative;
+	display:block;
+}
+.copyright #logos #ds-logo {
+	background:url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/footer_logo.png") no-repeat scroll 0 0 transparent;
+	display:block;
+	height:35px;
+	margin-left:-40px;
+	padding-right:38px;
+	text-indent:-2000px;
+	width:152px;
+}
+.copyright #logos #ableton-logo {
+	background:url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/footer_ableton9_ctc.png") no-repeat scroll 0 0 transparent;
+	height:20px;
+	margin-top:11px;
+	width:240px;
+}
+/*		.copyright #logos #ds-logo {
+			background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/footer_logo.png") no-repeat;
+			width: 152px; height: 35px;
+			display: block;
+			text-indent: -9000px;
+		}
+*/
+		.copyright p {
+	font-size: 1.1em;
+	line-height: 18px;
+	color: #999;
+	clear:both;
+}
+.copyright p a {
+	color: #ccc;
+}
+.copyright p a:hover {
+	color: #ffcc00;
+	text-decoration: none;
+}
+/*	.copyright img {
+			float:left;
+			margin-left:170px;
+			margin-top:-35px;
+			display:block;
+		}*/
+/* Contact Page Form
+-------------------------------- */
+#contact_form {
+	float:left;
+}
+#contact_form h1, #contact_form h2 {
+	color:#333333;
+	padding-top:0px;
+}
+#contact_form h3 {
+	color:#333333;
+	padding-top:5px;
+	margin-bottom: 0px;
+	padding-bottom:2px;
+	font-size: 18px;
+}
+#contact_form h4 {
+	color:#333333;
+	padding-top:5px;
+	margin-bottom: 0px;
+	padding-bottom:2px;
+	font-size: 12px;
+}
+#contact_form a, #right_sidebar a {
+	/**font-weight:bold;**/
+}
+\ /*widget styling*/
+#right_sidebar a {
+color: #888888;
+font-size: 12px;
+}
+#rss-3 widgettitle {
+	display: none;
+}
+#right_sidebar .widget_rss {
+	margin-left: 10px;
+}
+#right_sidebar .widget_rss li {
+	list-style-type: disc;
+	font-size: 12px;
+}
+#right_sidebar .rsswidget {
+	font-size: 12px;
+	color: #888888;
+}
+.textwidget {
+	border-bottom: #888888 thin dotted;
+	padding-bottom: 5px;
+}
+#contact_form button span {
+	display:none
+}
+#contact_form button {
+	width: 85px;
+	height: 32px;
+	background: no-repeat url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/submit.png');
+	border:0 none;
+	margin:0px 0 0 0px;
+	padding:0;
+}
+#contact_form input, #contact_form select, #contact_form textarea {
+	border: 1px solid #cccccc;
+	padding: 2px;
+	margin-right:22px;
+	float: left;
+}
+#contact_form label, #contact_form legend {
+	padding-right: 5px;
+	line-height: 21px;
+	color:#666666;
+	clear:left;
+}
+#contact_form input, #contact_form select, #contact_form label {
+	margin-top: 10px;
+	font-size: 1.4em;
+}
+#thanks {
+	color: black;
+	margin-top:10px;
+	display: none;
+	margin-bottom: 236px;
+	font-size: 2.9em;
+}
+#contact_form #checkbox_left {
+	float:left;
+	margin-left:0px;
+	width:218px;
+}
+#contact_form #checkbox_right {
+	float:left;
+	width:190px;
+}
+#contact_form #checkbox_left label, #contact_form #checkbox_right label {
+	margin: 0px;
+	line-height:17px;
+	font-weight:normal;
+	float:left;
+	display:inline;
+	width:190px;
+}
+#contact_form #checkbox_left input, #checkbox_right input {
+	margin:2px 10px 0 0;
+	border: 0 none;
+	display:inline;
+}
+#contact_form #checkbox_fullwidth {
+}
+#contact_form #checkbox_fullwidth fieldset label {
+	font-weight:normal;
+	margin-left:79px;
+}
+#contact_form #checkbox_fullwidth fieldset input {
+	margin:5px 10px 20px 7px;
+	border: 0 none;
+}
+/* courses upcoming */
+#wrapUpcomingCourses_Contact {
+	color: #000;
+	clear: both;
+	width: 560px;
+	margin: 0 auto;
+}
+#wrapUpcomingCourses_Contact a {
+	cursor: pointer;
+	color: #000;
+	font-weight: bold;
+}
+#topUpcomingCourses {
+	width: 530px;
+	padding: 10px 5px 10px 5px;
+	background-color: #000;
+}
+#topUpcomingCourses h1 {
+	color: #FCF974;
+	padding: 0px 0px 0px 0px;
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: 500;
+}
+#mainUpcomingCourses {
+	background-color: #F4F4F4;
+	width: 540px;
+	height: 195px;
+}
+#mainLeftCourses {
+	margin-top: 10px;
+	float: left;
+	width: 235px;
+	padding: 0px 20px 10px 15px;
+}
+#mainRightCourses {
+	margin-top: 10px;
+	float: left;
+	width: 235px;
+	padding: 0px 15px 10px 20px;
+}
+#mainLeftCourses h2 {
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000;
+	text-decoration: underline;
+}
+#mainRightCourses h2 {
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000;
+	text-decoration: underline;
+}
+#mainLeftCourses h3 {
+	font-size: 11px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+	color: #000;
+}
+#mainRightCourses h3 {
+	font-size: 11px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+	color: #000;
+}
+#mainLeftCourses p {
+	font-size: 11px;
+	color: #000;
+}
+#mainRightCourses p {
+	font-size: 11px;
+	color: #000;
+}
+/* end courses upcoming */
+
+#contact_form .comments {
+	float:left;
+	width:72px;
+}
+#contact_form #basic_info #text_fullwidth label {
+	clear:left;
+	float:left;
+}
+#contact_form #basic_info #text_fullwidth input {
+	clear:right;
+	float:left;
+}
+#contact_form #basic_info .first_name label {
+	clear:left;
+	float:left;
+}
+#contact_form #basic_info .first_name input {
+	float:left;
+}
+#contact_form #basic_info .last_name label {
+	float:left;
+}
+#contact_form #basic_info .last_name input {
+	float:right;
+	clear:none;
+}
+#contact_form label {
+	width:175px;
+	float:left;
+	color:#333333;
+	font-weight:bold;
+}
+#contact_form #basic_info input {
+	float:left;
+}
+#contact_page_content-inner .main {
+	float: left;
+	width: 480px;
+	margin-left: 20px;
+}
+#contact_page_content-inner #right_sidebar {
+	margin:15px 20px 15px 0px;
+}
+#right_sidebar {
+	padding:10px 20px;
+	margin:0 0 15px;
+	width:189px;
+	float:right;
+	background:#ffffff;
+	border:1px solid #cccccc;
+	-moz-border-radius:7px;
+	border-radius: 7px;
+}
+
+
+
+#right_sidebar hr {
+	color:white;
+	height:0;
+	margin:6px 0;
+	width:191px;
+}
+#contact_page_content-inner #badges {
+	margin-right: 20px;
+	float:right;
+	clear:right;
+}
+#badges {
+	float:right;
+	clear:right;
+}
+#badges img {
+	padding:5px 0 0 7px;
+}
+#badges b {
+	font-weight:bold;
+	vertical-align:8px;
+}
+.about_groupon ul li {
+	font-size: 14px;
+}
+/* 	FORM
+-------------------------------- */
+form div.subscribe {
+	width: 280px;
+}
+form div.subscribe input.tfield {
+	margin: 10px 0 0;
+	padding: 4px;
+	background: #fff;
+	border: 1px solid #999;
+	font-size: 1.2em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #666;
+	width: 250px;
+}
+form div.subscribe br {
+	clear: left;
+}
+form div.subscribe input.button {
+	margin: 15px 0 0;
+}
+/*      REGISTRATION PAGE
+-------------------------------- */
+.paypal_button {
+	padding-top:7px;
+}
+#paypal_button input {
+	border:0;
+	margin-bottom:5px;
+	position:relative;
+	bottom:5px;
+}
+.paypal-button img {
+	border:0;
+}
+.regtemp-main {
+	padding:15px 15px 15px 40px;
+	width:93%;
+}
+.regtemp-main .regtemp-page_content {
+	width:100%;
+}
+.regtemp-main .option {
+	border-bottom:1px solid black;
+	clear:both;
+	padding:15px 0 16px;
+	float:left;
+}
+.regtemp-main .courseinfo {
+	padding-bottom:14px;
+}
+.regtemp-main .paymentinfo {
+	float:left;
+}
+.regtemp-main h1 {
+	font-size:4.8em;
+	padding-top:7px;
+}
+.regtemp-main h3 {
+	margin:18px 0 20px;
+}
+.regtemp-main .courseinfo h4 {
+	font-size:1.7em;
+}
+.regtemp-main .courseinfo p {
+	font-size:1.2em;
+}
+.regtemp-main p.reg-descrip {
+	display:block;
+	clear:both;
+	padding:15px 0 0;
+	font-size:1.5em;
+}
+.regtemp-main .paymentinfo input {
+	float:left;
+}
+.regtemp-main .paymentinfo select {
+	float:left;
+	margin:0 21px 0 5px;
+	width:259px;
+}
+.regtemp-main .paymentinfo p {
+	clear:both;
+}
+.regtemp-main .paymentinfo form {
+	float:left;
+	margin:-32px 0 0 50px;
+}
+/* 	ROUNDED CORNERS
+-------------------------------- */
+.rounded-corners {
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	border-radius: 10px; /* CSS3 */
+}
+/*chris added for hp blog categories to make the text links gray*/
+html body .blog .blogpost .featured-cat a, html body .blog .blogpost .featured-cat a:visited {
+	color:#999 !important;
+	font-size: 14px;
+}
+/* COURSE REGISRATION PAGE
+-------------------------------- */
+
+.course-reg-page h2 {
+	padding: 26px 0px 14px;
+}
+.course-reg-page p#moreinfo {
+	font-size: 1.6em;
+	margin: 17px;
+	line-height:1em;
+	line-height: 1.6em;
+	color:#000;
+}
+.panel-rounded-top {
+	-moz-border-radius-topleft: 10px; /* Firefox */
+	-moz-border-radius-topright: 10px; /* Firefox */
+	-webkit-border-top-left-radius: 10px; /* Safari, Chrome */
+	-webkit-border-top-right-radius: 10px; /* Safari, Chrome */
+	border-top-left-radius: 10px; /* CSS3 */
+	border-top-right-radius: 10px; /* CSS3 */
+}
+.panel-rounded-bottom {
+	-moz-border-radius-bottomleft: 10px; /* Firefox */
+	-moz-border-radius-bottomright: 10px; /* Firefox */
+	-webkit-border-bottom-left-radius: 10px; /* Safari, Chrome */
+	-webkit-border-bottom-right-radius: 10px; /* Safari, Chrome */
+	border-bottom-left-radius: 10px; /* CSS3 */
+	border-bottom-right-radius: 10px; /* CSS3 */
+}
+.course-reg-page #subheader {
+	height: 140px;
+	background: #090909 url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/course-reg-subheader.jpg") center no-repeat;
+}
+.course-reg-page #steps {
+	display: block;
+	width: 980px;
+	height: 40px;
+	margin:0 auto;
+	position:relative;
+	top:100px;
+}
+.course-reg-page #steps .step {
+	display: block;
+	width: 720px;
+	height: 40px;
+}
+.course-reg-page #steps .step span {
+	display: none;
+}
+.course-reg-page #steps.step1 #step2, #steps.step1 #step3, #steps.step1 #step4 {
+	display: none;
+}
+.course-reg-page #steps.step2 #step1, #steps.step2 #step3, #steps.step2 #step4 {
+	display: none;
+}
+.course-reg-page #steps.step3 #step1, #steps.step3 #step2, #steps.step3 #step4 {
+	display: none;
+}
+.course-reg-page #steps.step4 #step1, #steps.step4 #step2, #steps.step4 #step3 {
+	display: none;
+}
+.course-reg-page #step1 {
+	background-image: url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/course-reg-step1.png');
+	background-repeat: no-repeat;
+}
+.course-reg-page #step2 {
+	background-image: url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/course-reg-step2.png');
+	background-repeat: no-repeat;
+}
+.course-reg-page #step3 {
+	background-image: url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/course-reg-step3.png');
+	background-repeat: no-repeat;
+}
+.course-reg-page #step4 {
+	background-image: url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/course-reg-step4.png');
+	background-repeat: no-repeat;
+}
+.course-reg-page .sidebar {
+	border:1px solid #dfdfde;
+	margin-left:720px;
+	margin-top:67px;
+	position:absolute;
+	width:218px;
+}
+.course-reg-page .sidebar .calendar {
+	font-size: 12px;
+	width: 160px;
+	margin: 18px auto
+}
+.course-reg-page .sidebar .calendar tr {
+}
+.course-reg-page .sidebar .calendar thead tr th {
+	color: black;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: 7px;
+}
+.course-reg-page .sidebar .calendar thead tr th.title {
+	font-weight: bold;
+	color: #888;
+	padding-bottom: 11px;
+	font-size: 1.2em;
+}
+.course-reg-page .sidebar .calendar tbody td {
+	text-align: center;
+	color: black;
+	padding-bottom: 7px;
+	font-weight: bold;
+}
+.course-reg-page .sidebar .calendar td.inactive {
+	color: #aaa;
+}
+.course-reg-page .sidebar table:first-child {
+}
+.course-reg-page #content {
+	background: #f4f4f4 url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/content_bg.gif") top center repeat-y;
+	overflow: hidden;
+}
+.course-reg-page #content_inner {
+	margin: 0 auto;
+	width: 938px; /* 938 944px;*/
+	min-height:785px
+}
+.course-reg-page #content .content_step {
+	overflow: hidden;
+	width: 700px;
+	display: block;
+	padding:32px 0;
+	color: #333333;
+}
+.course-reg-page .content_step h2 {
+	font-size: 2.1em;
+}
+.course-reg-page .content_step p {
+	font-size:1.2em;
+	line-height:40px;
+	padding-bottom: 6px
+}
+.course-reg-page .panel {
+	float: left;
+	width: 698px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-style: solid;
+	border-color: #E0E0E0;
+}
+.course-reg-page .panel_title {
+	background-color:#999999;
+	color:white;
+	font-size:1.8em;
+	height:29px;
+	margin-left:-1px;
+	margin-top:-36px;
+	padding:7px 0 0 20px;
+	position:absolute;
+	width:680px;
+}
+.course-reg-page .panel_bottom {
+	border-bottom-style: solid;
+	border-bottom-width:1px;
+}
+.course-reg-page .sub_panel {
+	background-color:#F8F8F8;
+	border-top-color:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	bottom:-7px;
+	left:-1px;
+	padding:16px;
+	position:relative;
+	width:666px;
+}
+/*
+.course-reg-page input .radiobutton { width: 20px; height: 20px; background-image: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/course-reg-radiobutton.png"); background-repeat:no-repeat; cursor: pointer; margin-bottom: -4px; margin-right: 12px; }
+.course-reg-page input .radiobutton .selected { background-image: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/course-reg-radiobutton_selected.png"); }
+*/
+.course-reg-page #dates_panel {
+	margin-top:36px;
+	margin-bottom: 15px;
+}
+.course-reg-page .dates_options {
+	padding: 16px;
+	padding-bottom: 0px;
+}
+.course-reg-page .dates_options h4 {
+	font-size: 1.5em;
+	margin-bottom:8px;
+	padding-bottom:8px;
+	color:black;
+}
+.course-reg-page .dates_options h4.program_day_summary {
+	padding-left: 5px;
+	font-size: 1.5em;
+	padding-bottom: 13px;
+}
+.course-reg-page .dates_options h4.program_day_summary span {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+.course-reg-page .date_option {
+}
+.course-reg-page .date_option td {
+	padding-bottom: 5px;
+	vertical-align:baseline;
+}
+.course-reg-page .date_option_indent {
+	margin-left:20px;
+}
+.course-reg-page .date_option h5, .course-reg-page .payment_option h5 {
+	color: black;
+	font-size: 1.5em;
+	margin: 0px 20px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-weight: normal;
+}
+.course-reg-page .date_option div {
+	float: left;
+	clear: right;
+}
+.course-reg-page .date_option .disabled h5 {
+	color: #BBB;
+}
+.course-reg-page .date_option .disabled span.disabled_strike {
+	text-decoration: line-through;
+}
+/*.course-reg-page #payment_options { width: 666px; left: -1px; position: relative; padding:16px; bottom: -7px; }*/
+.course-reg-page #payment_options h4 {
+	font-size: 1.5em;
+	padding-top: 16px;
+}
+.course-reg-page .payment_option {
+}
+.course-reg-page .payment_option td {
+	padding-bottom: 3px;
+	padding-left: 16px;
+	vertical-align:baseline;
+}
+.course-reg-page .payment_option h4 {
+	color: black;
+	font-size: 1.2em;
+	margin-right: 20px;
+	font-weight: normal;
+}
+.course-reg-page .payment_option .payment_description {
+	color: #444444;
+	margin-right: 7px;
+}
+.course-reg-page .payment_option .payment_description .disabled {
+	color: #222222;
+}
+.course-reg-page #payment_options table {
+	margin-top: 16px;
+}
+.course-reg-page #payment_options {
+	margin-top:36px;
+	margin-bottom: 15px;
+	position:relative;
+}
+.course-reg-page .submitbutton {
+}
+.course-reg-page .submitbutton span {
+	display: none;
+}
+.course-reg-page .submitbutton:focus {
+	outline: none;
+}
+.course-reg-page .submitbutton {
+	cursor: pointer;
+	width: 154px;
+	height: 42px;
+	margin: 20px 0px 10px 10px;
+	background-image: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/course-reg-continue_button.png");
+	border: 0;
+}
+.course-reg-page .submitbutton + a {
+	font-size: 1.3em;
+	left:14px;
+	position:relative;
+	top:3px;
+}
+.course-reg-page .contactus {
+	font-size:1.5em;
+	font-weight:bold;
+	line-height:1.5em;
+	position:absolute;
+	text-align:center;
+	color: #666;
+}
+.course-reg-page .contactus {
+	margin-left:468px;
+	margin-top:-32px;
+	position:absolute;
+}
+.course-reg-page .cancel a {
+	color: #ff9900;
+	font-size: 1.7em;
+	left:196px;
+	position:relative;
+	top:-30px;
+	text-decoration: underline;
+}
+.course-reg-page .sale {
+	color: red;
+}
+.course-reg-page .bold {
+	font-weight: bold;
+}
+.course-reg-page .red, a.red {
+	color: #cc0000;
+}
+.course-reg-page .orange, a.orange {
+	color: #ff9900;
+	text-decoration:underline;
+}
+.course-reg-page a.payment_plan span.payment_plan {
+	color: #999;
+	font-size: 1.4em;
+	margin-right:4px;
+	float:right;
+}
+.course-reg-page a.payment_plan:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+.course-reg-page a.payment_plan_online span.payment_plan {
+	color: #999;
+	font-size: 1.4em;
+	margin-right:4px;
+	float:right;
+}
+.course-reg-page a.payment_plan_online:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+.course-reg-page .dates-info {
+	color: #0000cc;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.course-reg-page .price {
+	display: none;
+}
+.course-reg-page #billing_message {
+	background-color:#FFFFCC;
+	border:1px solid #FFCC00;
+	color:black;
+	font-size:1.21em;
+	margin:7px 8px 0;
+	padding:10px;
+}
+.course-reg-page #billing_message h3 {
+	color: #cc0000;
+}
+.course-reg-page #summery_panel {
+	margin-top:36px;
+	margin-bottom: 15px;
+}
+.course-reg-page .order_summery {
+	font-size: 1.3em;
+	padding: 16px;
+}
+.course-reg-page .order_summery h4 {
+	color: black;
+	font-size: 1.5em;
+	padding-bottom: 0px;
+	text-align:left;
+}
+.course-reg-page .order_summery .summery_course h4 {
+	font-size: 1.6em;
+	margin-bottom: 10px;
+}
+.course-reg-page .order_summery .summery_item div {
+	margin-left: 12px;
+	margin-top: 0px;
+	color: black;
+	font-size: 1.3em
+}
+.course-reg-page #payment_form_panel {
+	margin-top:36px;
+	margin-bottom: 15px;
+}
+.course-reg-page .edit_order {
+	font-size: 1.6em;
+	color: black;
+	margin-bottom: 10px;
+}
+.course-reg-page a#edit_order {
+	text-decoration: none;
+	cursor: pointer;
+}
+.course-reg-page h3.program-header {
+	margin-left: 5px;
+	margin-bottom: 0px;
+	font-size: 1.7em;
+}
+.course-reg-page h4.program-subheader {
+	color: black;
+	font-weight: normal;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	font-size: 1.4em;
+}
+.course-reg-page .termsandconditions {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-left: 16px;
+}
+.course-reg-page #terms-error {
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.course-reg-page .payment_option_location {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	color: black;
+	font-weight: bold;
+}
+.course-reg-page .payment_option_indent {
+	margin-right: 5px;
+	padding-right: 5px;
+}
+/* IE Checkbox and Radio Border fix */
+input[type="checkbox"], input[type="radio"] {
+	/* background: transparent; */
+    border: 0;
+}
+.asterisk > label {
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/requiredfield.png") no-repeat top right transparent;
+	padding-right:15px;
+}
+input {
+	border: 1px solid #cccccc;
+}
+input.error {
+	background-color: #ffd9d9;
+	border-color: #cc0000;
+}
+/* 	ABOUT AND GROUPON PAGES
+-------------------------------- */
+#page_content .featvideo {
+	margin:0;
+}
+#page_content .featvideo p {
+	border-style:none !important;
+	border:0 !important;
+}
+#page_content.rsidebar {
+	float:left;
+	font-size: 12px;
+}
+.rsidebar p, .rsidebar h1, .rsidebar h2, .rsidebar h3 {
+/*width:520px;
+*/}
+.aboutus2 #right_sidebar {
+	border-style:none;
+	border:0;
+}
+#right_sidebar .post, #right_sidebar .blog {
+	margin-top:0;
+	margin-left:0 !important;
+	float:none !important;
+	width:200px !important;
+}
+#right_sidebar .post .blog {
+	padding-left:17px !important;
+}
+#right_sidebar h3 {
+	font-size:1.6em !important;
+	color:#888 !important;
+}
+#right_sidebar .post h3 {
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+}
+#right_sidebar .blog ul {
+	margin-top:0 !important;
+}
+#right_sidebar .blog ul li {
+	display:list-item !important;
+}
+#right_sidebar .blog .blogpost {
+	float: none;
+	list-style: none outside none;
+	margin: 5px 0 0 0;
+	/** width: 212px; **/
+}
+#right_sidebar .blog .blogtitle {
+	font-weight:normal;
+	line-height:1.1em;
+	float: none;
+	list-style: none outside none;
+	margin: 5px 0 0 0;
+	width: 181px;
+}
+#right_sidebar .blog .blogtitle a {
+	font-size:.95em;
+	line-height:1.25em;
+	font-weight:normal;
+	color:#666;
+}
+#right_sidebar .blog p.blogtitle {
+	font-size:1em !important;
+	display: inline;
+}
+#right_sidebar .post img, #right_sidebar .blog p.featured-cat {
+	display:none !important;
+
+}
+.aboutus2 strong.bolder {
+	color:#000 !important;
+	font-size:1.1em;
+}
+#page_content.rsidebar p {
+	border-bottom: dotted #999 1px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-bottom:20px;
+}
+#right_sidebar p {
+	border-bottom: dotted #999 1px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-bottom:20px;
+}
+#right_sidebar .blog p {
+	border:0 !important;
+	border-style:none !important;
+	margin:0;
+	padding-bottom:0;
+}
+#right_sidebar p.blogtitle {
+	border-bottom:0 !important;
+	border-style:none !important;
+	border:0 !important;
+}
+#right_sidebar ul.socialmedia {
+	font-size: 1.4em;
+	color: #666;
+}
+#groupon .interior #right_sidebar ul li, .about .interior #right_sidebar ul li {
+	border-style:none !important;
+	border-bottom:0 !important;
+	margin-bottom:0 !important;
+	border:0 !important;
+}
+#groupon .interior #right_sidebar ul li, .about .interior #right_sidebar ul li {
+	list-style:disc;
+}
+#groupon .interior #right_sidebar ul.socialmedia li, .about .interior #right_sidebar ul.socialmedia li {
+	list-style:none;
+}
+#page_content .featvideo p {
+	border-style:none !important;
+	border-bottom:0 !important;
+	margin-bottom:0 !important;
+	border:0 !important;
+}
+#right_sidebar p.socialmedia, .socialmedia li {
+	border-style:none;
+	border:0;
+}
+#right_sidebar .socialmedia ul {
+	list-style:none;
+}
+#right_sidebar .socialmedia a {
+	color:#666;
+}
+#right_sidebar .socialmedia a:hover {
+	color:#666;
+}
+.facebook-list-item {
+	padding:3px 0 3px 32px;
+	background:transparent url(/wp-content/uploads/icn_facebook.gif) center left no-repeat;
+}
+.twitter-list-item {
+	background:transparent url(/wp-content/uploads/icn_twitter.gif) center left no-repeat;
+	padding:3px 0 3px 32px;
+}
+.youtube-list-item {
+	background:transparent url(/wp-content/uploads/icn_youtube.gif) center left no-repeat;
+	padding:3px 0 3px 32px;
+}
+.soundcloud-list-item {
+	background:transparent url(/wp-content/uploads/icn_soundcloud.gif) center left no-repeat;
+	padding:3px 0 3px 32px;
+}
+.testimonial-quote {
+	/**font-size:1.95em; **/
+	color:#666;
+	padding-top: 10px;
+}
+#groupon .about_groupon {
+	background:#dcddde;
+	padding: 18px 28px;
+}
+#groupon .about_groupon img {
+	vertical-align:middle;
+}
+#groupon .about_groupon ul {
+	list-style:disc;
+	margin: 0px 16px;
+}
+#groupon #right_sidebar, .about #right_sidebar {
+	border:none;
+}
+.about #right_sidebar {
+	padding-top:19px;
+}
+#page_content.rsidebar p {
+	border-bottom:none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-bottom:0;
+	font-size: 14px;
+}
+#groupon .testimonial-quote {
+	color:#9a0d00;
+}
+#groupon .testimonial-quote strong {
+	font-weight: 600;
+}
+form div.subscribe input.tfield {
+	width:180px;
+}
+#groupon #right_sidebar .side_newsletter p, .about #right_sidebar .side_newsletter p {
+	border-bottom:none;
+	padding-bottom:0;
+}
+#right_sidebar .feat_courses a {
+	font-weight:normal;
+	color:#666;
+	font-size:.9em;
+}
+#right_sidebar ul.feat_courses {
+	padding-top:0;
+	margin-top:0;
+	margin-left: 16px;
+}
+#right_sidebar .feat_courses li {
+	padding-bottom:3px;
+}
+.groupon-sign-up {
+	padding: 0px 30px 15px;
+	font-size: 1em;
+	line-height: 2.5em;
+}
+.groupon-sign-up .dates {
+	padding: 12px 0;
+}
+.groupon-sign-up .dates-intent {
+	font-size: 1.4em;
+	padding: 12px 10px;
+}
+.groupon-form {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.groupon-sign-up input {
+	margin-left: 10px;
+}
+.groupon-sign-up .subscribe {
+	font-weight:normal;
+}
+.groupon-sign-up h1 {
+	padding-bottom: 24px;
+}
+.groupon-sign-up td {
+	padding-bottom: 8px;
+}
+.groupon-sign-up .radio {
+	padding-bottom: 5px;
+}
+.groupon-sign-up p {
+	padding-bottom: 3px;
+}
+.groupon-sign-up .button {
+	background: transparent url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/register_button2.png) no-repeat center top;
+	border: none;
+	height: 46px;
+	margin-left: -12px;
+	text-indent: -5000px;
+	width: 174px;
+	cursor: pointer;
+	cursor:hand;
+}
+.groupon-sign-up h2 {
+	font-size: 1.8em;
+	font-weight: normal;
+}
+.course-reg-page .info_paragraph {
+	width: 543px;
+}
+.course-reg-page h3.program-header {
+	margin-left: 15px;
+}
+.course-reg-page h4.program-subheader {
+	margin-left: 15px;
+}
+.course-reg-page hr {
+	margin: 20px 0px 8px;
+}
+.course-reg-page .bbb {
+	float: right;
+	margin-right: -5px;
+	margin-top: -83px;
+}
+.course-reg-page .contactus {
+	margin-left: 436px;
+	margin-top: -16px;
+	padding-bottom: 15px;
+	position: relative;
+}
+.course-reg-page .overlay h1 {
+	font-size: 1.5em;
+	margin: 0px;
+	outline: 0px;
+}
+.course-reg-page .overlay p {
+	font-size: 1.5em;
+	line-height: 1.7em;
+	padding-right: 12px;
+}
+.course-reg-page .overlay .text {
+	font-size: 1.5em;
+	line-height: 1.6em;
+	font-weight: bold;
+}
+.course-reg-page .overlay .payments {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.course-reg-page .overlay .number {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.course-reg-page .overlay .paymentcontact {
+	font-size: 1.5em;
+	color:#666;
+}
+.course-reg-page .overlay .paymentcontact a {
+	color: #900;
+}
+.course-reg-page .overlay .total {
+	margin-top: 4px;
+	font-weight:bold;
+}
+.course-reg-page .overlay {
+	position: absolute;
+	color:#666;
+	left: 20px;
+	top: -274px;
+}
+.course-reg-page .overlay .payments .due_today {
+	color:#C00;
+}
+.course-reg-page #overlay_step2 {
+	display: block;
+	font-size: 0.5em;
+	top: 227px;
+	left: 361px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 20px;
+}
+.course-reg-page #overlay_step2 .payments {
+	font-size: 1.1em;
+	width: 56%;
+	padding: 3px 0;
+}
+.course-reg-page #overlay_step2 .copy {
+	width: 37%;
+}
+.course-reg-page #order_summery {
+	position: relative;
+}
+/* Sale Page */
+
+.sale .interior {
+	margin: 0px 20px 0 20px;
+	padding: 0px;
+}
+.sale .content-inner {
+	margin: 0px 20px 0 20px;
+}
+.sale .sale_banner_main {
+	position: relative;
+	left: 20px;
+}
+.sale .main {
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.sale #course_link {
+	background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_arrow_next_yellow.png") 10px 5px no-repeat;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 0px 5px 0px 30px;
+}
+/* .sale .course_link p {padding: 20px 0px 20px 0px; margin-bottom: 20px;} */
+.sale h1 {
+	font-size: 2.1em;
+}
+.sale h3#sale-popcourses {
+	font-size: 2.0em;
+}
+.workshops div#sale-banner, .programs div#sale-banner {
+	margin-top: 15px;
+}
+/*******************************************************
+Ableton Live Promo Page
+********************************************************/
+
+.ableton-promo {
+}
+.ableton-promo div#ableton-promo-form {
+	width: 100%;
+	padding: 0px 5px 0px 5px;
+}
+.ableton-promo div#ableton-promo-form div.drop-cap {
+	font: bold 40px sans-serif;
+	color: #000000;
+	padding: 0px 20px 0px 10px;
+	float: left;
+	height: 200px;
+}
+.ableton-promo div#ableton-promo-form h4 {
+	color: #000000;
+	font: bold 25px sans-serif;
+	width: 100%;
+	text-align: left;
+	margin: 10px 0px 20px 10px;
+}
+.ableton-promo h5 {
+	color: #64B400;
+	font: normal 15px arial;
+	margin-bottom: 10px;
+}
+.ableton-promo div#email-form {
+	width: 350px;
+	float: left;
+}
+.ableton-promo div#email-form button {
+	position: relative;
+	left: 200px;
+	margin:10px 0 0 76px;
+}
+.ableton-promo div#promo-form {
+	width: 360px;
+	margin-right: 100px;
+	float: right;
+}
+.ableton-promo div#promo-form button {
+	position: relative;
+	left: 140px;
+	margin:10px 0 0 76px;
+}
+.ableton-promo div#thanks {
+	width: 350px;
+	float: left;
+	color: #64B400;
+	font: normal 15px arial;
+	margin-bottom: 10px;
+}
+.ableton-promo div.clear {
+	clear: both;
+}
+.ableton-promo form fieldset {
+	margin-left: 0px;
+}
+.ableton-promo form div.field {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.ableton-promo form label {
+	font: bold 13px arial;
+	color: #000000;
+}
+.ableton-promo form input[type="text"] {
+	width:203px;
+	float: right;
+}
+.ableton-promo form button {
+	width: 85px;
+	height: 32px;
+	background: no-repeat url('http://dubspot.com/wp-content/themes/dubspotheme/images/submit.png');
+	border:0 none;
+	padding:0;
+	cursor: pointer;
+}
+.ableton-promo #promo-video {
+	width: 100%;
+	text-align: center;
+}
+/** REMIX CONTEST FORM **/
+#wpcf7 {
+	background: #D8D8D8;
+	border: 1px solid #999;
+	padding: 0 0 20px 20px;
+	margin: 10px 10px 0 0;
+}
+/*****************************************
+Page Content
+******************************************/
+
+#page_content li {
+	display: list-item;
+	border: none;
+	font-size: 13px;
+}
+#page_content ul {
+	list-style: disc;
+	margin: 0px;
+	margin-left: 40px
+}
+#page_content ol {
+	list-style: decimal;
+	margin: 0px;
+	margin-left: 40px
+}
+/*****************************************
+Left Sidebar Template
+******************************************/
+div#content.page-right-sidebar div.content-inner .interior {
+	padding: 0px 20px;
+	width: 940px;
+}
+
+/***************************
+Course registration page 
+***************************/
+
+div.seeMoreDates { float:right; width:194px; height:44px; padding:12px 0px 5px 0px; }
+
+div.seeMoreDates a.btn {
+	display: block; width: 194px; height: 44px;
+	background: url('http://www.dubspot.com/wp-content/themes/dubspotheme/images/see_more_dates.png') no-repeat -1px -51px;
+	text-indent: -9999px; outline: none;
+}
+
+div.seeMoreDates a.btn:hover {
+	background-position: -1px -1px;
+}
+
+/**********************************
+Account info on homepage header
+**********************************/
+
+#header div.account p span#time-homepage {color: #000000;}
+
+/* 'Class full' styles */
+#contentOnlineCourses .classfull {
+	text-decoration: line-through; font-weight:normal !important; color: #999 !important;
+	}
+.menu-header-nav-container{width: 800px;}
+
+
+
+#courseCatalogBody a.learnmore {
+display: block;
+width: 156px;
+height: 44px;
+background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/learnmore_button.png) no-repeat -1px -51px;
+text-indent: -9999px;
+outline: none;
+}
+
+#courseCatalogBody div.sectionCourseItemShort div.photo a.learnmore {
+margin: 5px auto;
+}
+
+#courseCatalogBody a.learnmore:hover {
+background-position: -1px -2px;
+}
+
+
+/**********************************
+Contact Form Style
+**********************************/
+div.wpcf7 {
+margin: 10px 0 15px;
+padding: 23px;
+background: whiteSmoke; }
+
+div.wpcf7 input {
+border: 1px solid black; }
+
+
+
+/**********************************
+DSO Page and Music-Production Page Styling Updates
+**********************************/
+
+.more li {
+font-size: 12px; }
+
+.list .item .more h4 { font-size: 1.2em; }
+
+div#course-list div.programs div.more ul {
+padding-top: 0px;
+}
+
+.list .item .list_col1_thumbnail {
+background-position: center;
+background-size: cover;
+}
+
+#facebook-share iframe{
+min-width: 61px;
+min-height:18px;
+
+}
+
+
+/* Program banner styling: */
+
+ul.banner_courses{
+font-size: 0.85em;
+width: 916px;
+height: 86px;
+background-color: #002222;
+background-repeat: no-repeat;
+background-position: 0 0;
+display: table;
+margin: 10px auto;
+padding: 0 12px;
+}
+
+ul.banner_courses li{
+display: table-cell;
+padding: 0 11px;
+line-height: 1.5em;
+}
+
+/* banner slot headline */
+ul.banner_courses h4{
+color: #04ffdb;
+padding: 10px 0 2px 0;
+padding-bottom: 0;
+}
+
+ul.banner_courses h4 a{
+color: #fff440;
+}
+
+/* banner slot dates line */
+ul.banner_courses p{
+color: #ffffff;
+padding: 6px 0 0 0;
+margin: 0;
+}
+
+/* banner slot date text */
+ul.banner_courses em{
+font-weight: bold;
+font-style: normal;
+font-size: 1.1em;
+}
+
+ul.banner_courses a.seemore{
+color: #fff440;
+font-size: 1.25em;
+display: block;
+padding-top: 6px;
+}
+
+
+/* Master Program Infographic Styling: */
+
+ .infographic-slide {
+ 	width: 740px;
+ 	margin: 0 auto;
+
+ }
+
+.courses-intro {
+	width: 50%;
+	float: left;
+}
+
+
+.on-course-page {
+  float: right;
+	margin-top: 16px; }
+
+
+.on-emp-page {
+	height: 150px !important;}
+	.on-emp-page .upper-row {
+		height: 40px;	}
+	.on-emp-page .upper-row .green-hairline {
+		top: 2px;
+		left: 205px;
+	}
+	.on-emp-page .lower-row {
+		width: 302px;
+		margin: 0 auto;	}
+	.on-emp-page .lower-row ul li:first-child {
+		top: 0 !important; }
+
+
+
+ .infographic-slide div {
+ 	display: inline-block;
+ 	float: left;
+ }
+
+
+.infographic-375 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  background: black;
+  height: 180px;
+  width: 375px; }
+  .infographic-375 a {
+    text-decoration: none; }
+	.infographic-375 a:visited {
+		color: inherit;
+	}
+
+.transparent {
+	background: transparent;
+	position: relative;
+  top: 38px;
+}
+
+ .infographic-on-page div * {
+ 	top: 0;
+ 	left: 0;
+ }
+
+.infographic-left {
+	width: 264px;
+	margin-right: 20px;
+	margin-top: 65px;
+}
+
+.infographic-left h2 {
+		color: white;
+		padding: 0;
+		margin: 0;
+}
+
+.infographic-left h3 {
+	color: #FEF25F;
+	padding: 0;
+	margin: .4em 0;
+	font-weight: 400;
+}
+
+.infographic-left a {
+	text-decoration: none;
+}
+
+.infographic-left a h4 {
+	color: #FEF25F;
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+}
+
+
+
+
+.upper-row {
+  height: 67px;
+  width: 375px; }
+  .upper-row h4 {
+    background: transparent;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1; 
+    text-align: center;
+    /*height: 36px;*/
+    padding: 0; }
+  .upper-row .hairline {
+    border-radius: 1px;
+    position: relative; }
+
+
+
+    .upper-row .yellow-hairline {
+      color: #F7EC30;
+      left: 188px;
+      position: relative;
+      padding: 0;
+      width: 166px; }
+			.upper-row .yellow-hairline:before {
+				content: '';
+				display: block;
+				width: 4px;
+				height: 10px;
+				border-right: 1px solid yellow;
+				border-top: 1px solid yellow;
+				position: relative;
+				top: 16px;
+				left: 168px;}
+    	.upper-row .yellow-hairline:after {
+				content: '';
+				display: block;
+				width: 169px;
+				height: 30px;
+				border-left: 1px solid yellow;
+				border-top: 1px solid yellow;
+				position: relative;
+				top: -6px;
+				left: -175px;}
+
+	
+
+
+
+
+    .upper-row .green-hairline {
+      color: #89C63D;
+      position: relative;
+      left: 238px;
+      top: -34px;
+      margin-bottom: 4px;
+      width: 116px; }
+			.upper-row .green-hairline:before {
+				content: '';
+				display: block;
+				width: 4px;
+				height: 10px;
+				border-right: 1px solid green;
+				border-top: 1px solid green;
+				position: relative;
+				top: 16px;
+				left: 118px;}
+	    .upper-row .green-hairline:after {
+				content: '';
+				display: block;
+				width: 152px;
+				height: 13px;
+				border-left: 1px solid green;
+				border-top: 1px solid green;
+				position: relative;
+				top: -7px;
+				left: -156px;}
+
+
+
+
+
+    .upper-row .blue-hairline {
+      color: #02ABEE;
+      left: 17px;
+      position: relative;
+      top: -52px;
+      width: 124px;  }
+			.upper-row .blue-hairline:before {
+				content: '';
+				display: block;
+				width: 4px;
+				height: 10px;
+				border-right: 1px solid #02ABEE;
+				border-top: 1px solid #02ABEE;
+				position: relative;
+				top: 16px;
+				left: 124px; }
+  	  .upper-row .blue-hairline:after {
+				content: '';
+				display: block;
+				width: 4px;
+				height: 10px;
+				border-left: 1px solid #02ABEE;
+				border-top: 1px solid #02ABEE;
+				position: relative;
+				top: -7px;
+				left: -5px; }
+
+
+
+.lower-row {
+  height: 113px;
+	padding-left: 12px;
+	padding-right: 12px;
+	width: 375px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;}
+  .lower-row ul {
+    list-style: none;
+    position: relative;
+    margin: 0 !important;
+    margin-top: 5px !important;
+    padding: 0 !important; }
+    .lower-row ul li {
+    	background: none;
+      display: inline-block;
+      padding: 0;
+      margin-left: 3px !important; 
+    }
+    .lower-row ul li a img {
+    	    	border: 2px solid white;
+    	    	padding: 9px;
+    	    	border-radius: 3px;
+    }
+      .lower-row ul li:first-child {
+        margin-left: 0 !important;
+        position: relative;
+        top: -11px; }
+      .lower-row ul li:hover h5 {
+        visibility: visible; }
+      .lower-row ul li p {
+        display: none; }
+  .lower-row h5 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /*visibility: hidden;*/
+    width: 63px; }
+  .lower-row .infograph-yellow {
+    color: #f7ec30;
+    visibility: visible; }
+  .lower-row .infograph-green {
+    color: #89c63d;
+    visibility: visible; }
+  .lower-row .infograph-blue {
+    color: #02abee;
+    visibility: visible; }
+   .lower-row .icon-yellow {
+    border: 2px solid #f7ec30;}
+  .lower-row .icon-green {
+    border: 2px solid #89c63d; }
+  .lower-row .icon-blue {
+    border: 2px solid #02abee; }
+
+/* End Master Program Infographic Styling: */
+
+
+
+/**************************************
+ Fonts.com Styles - Self Hosted Fonts
+***************************************/
+
+@import url("http://www.dubspot.com/wp-content/themes/dubspotheme/http://fast.fonts.net/t/1.css?apiType=css&projectid=9b4de1c1-79b4-47bb-9cee-1c55da97f249");
+
+
+@font-face{
+font-family:"HelveticaNeueW01-67MdCn 692710";
+src:url("http://www.dubspot.com/wp-content/themes/dubspotheme/fonts/3a605871-b94d-4161-a394-bb2cfc975df7.eot?#iefix");
+src:url("http://www.dubspot.com/wp-content/themes/dubspotheme/fonts/3a605871-b94d-4161-a394-bb2cfc975df7.eot?#iefix") format("eot"),url("http://www.dubspot.com/wp-content/themes/dubspotheme/fonts/aef05e22-e1d4-4e59-bc2e-a71c13c26cca.woff") format("woff"),url("http://www.dubspot.com/wp-content/themes/dubspotheme/Fonts/b785b1cf-24fa-44c9-8c93-d8e2d6912c47.ttf") format("truetype"),url("http://www.dubspot.com/wp-content/themes/dubspotheme/Fonts/5ab0c585-fb4b-43d9-abb0-b92f452b1284.svg#5ab0c585-fb4b-43d9-abb0-b92f452b1284") format("svg");
+}
+@font-face{
+font-family:"HelveticaNeueW01-77BdCn 692722";
+src:url("http://www.dubspot.com/wp-content/themes/dubspotheme/fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix");
+src:url("http://www.dubspot.com/wp-content/themes/dubspotheme/fonts/83d5bc89-af33-46a9-8fe3-15d87784f50e.eot?#iefix") format("eot"),url("http://www.dubspot.com/wp-content/themes/dubspotheme/fonts/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff") format("woff"),url("http://www.dubspot.com/wp-content/themes/dubspotheme/Fonts/1d146b29-55e2-485b-96aa-5cb628e7e9eb.ttf") format("truetype"),url("http://www.dubspot.com/wp-content/themes/dubspotheme/Fonts/d90b3358-e1e2-4abb-ba96-356983a54c22.svg#d90b3358-e1e2-4abb-ba96-356983a54c22") format("svg");
+}
+
+
+/*--- Dubspot Online Landing Page Infographic  ---*/
+
+.day-by-day-container {
+	padding: 30px 0 40px 0;
+	margin-left: 28px;
+	border: none;
+	width: 900px;
+	float: left;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.day-by-day-container p {
+	width: 40%;
+	margin-bottom: 25px;
+}
+
+.day-by-day-container h3 {
+	padding-bottom: 6px;
+}
+
+.programs {
+		border: none;;
+}
+
+.green-arrow {
+	padding: 50px 6px;
+}
+
+/*--- end Dubspot Online Landing Page Infographic  ---*/
+
+
+/**************************************
+	Private Lesson Sign-Up Form
+***************************************/
+
+
+
+#page_content #private-lesson-form h6 {
+	padding-bottom: 0;
+}
+
+#page_content #private-lesson-form p {
+	padding-bottom: 0;
+}
+
+#page_content #private-lesson-form select {
+	height: 116px;
+}
+
+#page_content #private-lesson-form textarea {
+	height: 116px;
+	width: 300px;
+}
+
+#page_content #private-lesson-form ul {
+	list-style: none;
+}
+
+/*#private-lesson-form p {
+	display: none;
+}*/
+
+
+
+
+/*--- 	Private Lesson Sign-Up Form ---*/
+
+
+
+
+

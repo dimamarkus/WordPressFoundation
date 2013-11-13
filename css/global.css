@@ -6596,3 +6596,7 @@ header {
 .home-blurbs div div i {
   font-size: 15em;
 }
+
+html body.logic-x-body {
+  margin: 0;
+}

@@ -1,0 +1,3193 @@
+/*  ::  Global Styles  --  Header Navigation  */
+
+
+
+#header div.account {
+	position: absolute; right: 50%; top: 20px; margin-right: -490px;
+	}
+
+#header div.account p {
+	margin: 0; padding: 0; text-align: right;
+	font-size: 11px; color: #ccc !important;
+	}
+
+#header div.account p span {
+	font-size: 11px; padding: 0 7px; color: #000;
+	}
+
+#header div.account p a {
+	font-size: 11px; padding: 0 7px; color: #000;
+	}
+
+#header div.account p a:hover {
+	color: #000;
+	}
+
+#header div.account p span {
+	color: #ccc; padding: 0 7px;
+	}
+
+#header div.account p a.cart {
+	padding-left: 30px;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_cart.png) no-repeat 7px 0px;
+	}
+
+#header div.account p a.myaccount {
+	padding-left: 22px; padding-right: 0;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_user.png) no-repeat 2px 0px;
+	}
+
+#header div.account p a.login {
+	padding-left: 27px;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_user.png) no-repeat 7px 0px;
+	}
+
+#header div.account p span.account {
+	position: relative; display: inline; display: inline-block; z-index: 8888; zoom: 1;
+	border: 1px solid #262626; border-bottom: 0;
+	}
+
+#header div.account p span.accountWhite {
+	border: 1px solid #fff !important; border-bottom: 0 !important;
+	}
+
+#header div.account p span.account a {
+	text-decoration: none !important;
+	}
+
+#header div.account p span.account a b {
+	padding: 0 16px 0 0;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/header-account-arrow.png) no-repeat 100% 5px;
+	}
+
+#header div.account p span.account span.menu {
+	display: none;
+	}
+
+#header div.account p span.account:hover {
+	left: -6px; padding-left: 13px; padding-right: 13px; margin-right: -12px;
+	background: #595959;
+	border: 1px solid #7c7c7c !important; border-bottom: 0 !important;
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	}
+
+#header div.account p span.account:hover span.menu {
+	position: absolute; display: block; left: -1px; top: 22px; padding: 0; z-index: 8888;
+	background: #333; white-space: nowrap;
+	text-align: left;
+	border: 1px solid #7c7c7c;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	}
+
+#header div.account p span.account:hover span.menu br {
+	display: none;
+	}
+
+#header div.account p span.account:hover span.menu a {
+	padding: 5px 20px 5px 10px;
+	display: block; border-bottom: 1px solid #7c7c7c;
+	font-weight: bold; color: #b2b2b2;
+	}
+
+#header div.account p span.account:hover span.menu a:hover {
+	color: #262626 !important; background: #8c8c8c;
+	}
+
+#header div.account p span.account:hover span.menu a.firstChild {
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 6px;
+	}
+
+#header div.account p span.account:hover span.menu a.lastChild {
+	border: 0 !important;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	}
+
+#header div.accountWhite p span.account:hover a.myaccount {
+	background-image: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_user_dubspotonline.png) !important;
+	color: #ccc;
+	}
+
+#header div.accountWhite p span.account:hover a.myaccount:hover {
+	color: #ede200 !important; text-decoration: underline;
+	}
+
+/*  ::  Page Styles  --  Course Catalog  */
+
+
+#featured .shortdesc .panel.one-link {
+	position: absolute; width: 360px; margin: 0; bottom: 35px;
+	}
+
+
+/*  ::  Page Styles  --  Account Forms  */
+
+#accountForms {
+	position: relative; width: 972px; margin: 0 4px 14px 4px; overflow: hidden;
+	}
+
+#accountForms br.clear {
+	clear: both;
+	}
+
+#accountForms p.messageError {
+	padding: 10px 0 10px 16px !important; margin: 0 0 10px 0; width: auto !important;
+	font-size: 14px; color: #c00;
+	background: #fae5e5;
+	}
+
+#accountForms p.messageSuccess {
+	padding: 10px 0 10px 16px !important; margin: 0 0 10px 0; width: auto !important;
+	font-size: 14px; color: #090;
+	background: #e5f5e5;
+	}
+
+#accountForms label {
+	float: left; display: block; padding: 0 0 2px 0;
+	font-size: 1.4em; color: #333; font-weight: bold;
+	}
+
+#accountForms label.inline {
+	float: left; width: 80%; margin: 0 0 8px 0;
+	}
+
+#accountForms input.text {
+	float: left; width: 265px; margin: 4px 0 8px 0; padding: 4px 5px 4px 5px;
+	}
+
+#accountForms input.checkbox,
+#accountForms input.radio {
+	float: left; width: 15px; height: 15px; margin: 0 4px 8px 0;
+	}
+
+#accountForms textarea {
+	float: left; width: 265px; height: 100px; margin: 0 0 8px 0; padding: 4px 5px 4px 5px;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;
+	font-size: 12px; color: #333;
+	}
+
+#accountForms select.invalid,
+#accountForms textarea.invalid,
+#accountForms input.invalid {
+	background: #f99 !important;
+	}
+
+#accountForms .dijitTextBox {
+	border: 1px solid #e0e0e0; padding: 5px; max-width: 200px; margin: 0 0 8px 0;
+	border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;
+	}
+
+#accountForms input.sizeXL,
+#accountForms textarea.sizeXL {
+	width: 560px;
+	}
+
+#accountForms input.sizeL,
+#accountForms textarea.sizeL {
+	width: 398px;
+	}
+
+#accountForms input.sizeS,
+#accountForms textarea.sizeS {
+	width: 130px;
+	}
+
+#accountForms input.sizeXS,
+#accountForms textarea.sizeXS {
+	width: 75px;
+	}
+
+#accountForms textarea.error,
+#accountForms textarea.textError,
+#accountForms input.textError {
+	border-color: #e9622d;
+	}
+
+#accountForms textarea.success,
+#accountForms textarea.textSuccess,
+#accountForms input.textSuccess {
+	border-color: #78e965;
+	}
+
+#accountForms span.errorIcon {
+	float: left; display: block; width: 35px; height: 30px;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/register-icon-star-red-i8a8.png) no-repeat 50% 50%;
+	}
+
+#accountForms span.successIcon {
+	float: left; display: block; width: 70px; height: 30px; padding: 0 0 0 35px;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/register-icon-star-green-i8a8.png) no-repeat 5px 50%;
+	font-size: 13px; color: #78e965;
+	}
+
+#accountForms h1 {
+	padding: 40px 0 10px 55px;
+	}
+
+#accountForms div.signin {
+	float: left; width: 335px; padding: 20px 0 30px 55px;
+	}
+
+#accountForms div.signinDubspot input.button {
+	margin: 0 0 0 210px;
+	}
+
+#accountForms div.create {
+	float: left; width: 442px; padding: 20px 0 30px 86px;
+	}
+
+#accountForms div.create h2 {
+	padding: 2px 0 16px 0;
+	}
+
+#accountForms div.create p {
+	width: 340px; padding: 0 0 16px 16px;
+	}
+
+#accountForms div.create label {
+	float: left; width: 125px; padding: 6px 0 0 0; margin: 0 10px 8px 0;
+	text-align: right;
+	}
+
+#accountForms div.create label.inline {
+	float: left; width: 300px; padding: 2px 0 0 0; margin: 0 10px 8px 0;
+	text-align: left;
+	}
+
+#accountForms div.create input.text {
+	float: left; width: 210px; margin: 4px 0 6px 0;
+	}
+
+#accountForms div.create input.checkbox {
+	float: left; width: 15px; height: 15px; margin: 2px 10px 16px 110px;
+	}
+
+#accountForms div.create div.captcha {
+	float: left; width: 200px;
+	}
+
+#accountForms div.create div.captcha img {
+	border: 2px solid #fff;
+	}
+
+#accountForms div.create div.captcha p {
+	padding: 3px 0 20px 0;
+	}
+
+#accountForms div.create input.button {
+	clear: both; margin: 0 0 0 135px;
+	}
+
+#accountForms div.accountLeftColumn {
+	float: left; width: 400px; padding: 20px 0 80px 40px;
+	}
+
+#accountForms div.accountRightColumn {
+	float: left; width: 400px; padding: 20px 0 80px 40px;
+	}
+
+#accountForms div.accountLeftColumn h2,
+#accountForms div.accountRightColumn h2 {
+	padding: 18px 0 16px 16px;
+	}
+
+#accountForms div.accountLeftColumn p,
+#accountForms div.accountRightColumn p {
+	width: 340px; padding: 0 0 16px 16px;
+	}
+
+#accountForms div.accountLeftColumn p.right,
+#accountForms div.accountRightColumn p.right {
+	float: right; width: auto; padding: 5px 30px 0 0;
+	}
+
+#accountForms div.accountLeftColumn label,
+#accountForms div.accountRightColumn label {
+	float: left; width: 125px; padding: 6px 0 0 0; margin: 0 10px 8px 0;
+	text-align: right;
+	}
+
+#accountForms div.accountLeftColumn input.text,
+#accountForms div.accountRightColumn input.text {
+	float: left; width: 230px;
+	}
+
+#accountForms div.accountLeftColumn input.button,
+#accountForms div.accountRightColumn input.button {
+	clear: both; margin: 0 0 0 135px;
+	}
+
+
+
+/*  ::  Page Styles  --  Checkout Header  */
+
+#checkoutHeader {
+	position: relative; width: 100%; height: 140px; margin: 0;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/checkout-header-bg.jpg) repeat 50% 0;
+	}
+
+#checkoutHeader div.inner {
+	position: relative; width: 980px; margin: 0 auto;
+	}
+
+#checkoutHeader div.inner h2 {
+	position: absolute; left: 20px; top: 45px; margin: 0; padding: 0;
+	font-size: 30px; font-weight: bold; color: #fff;
+	}
+
+#checkoutHeader div.inner ol {
+	position: absolute; display: block; width: 503px; height: 40px; left: 0; top: 100px; margin: 0; padding: 0;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/checkout-header-steps-bg.png) no-repeat 0px 0px;
+	}
+
+#checkoutHeader div.inner ol li {
+	float: left; display: block; height: 40px;
+	text-indent: -9999px; outline: none;
+	}
+
+#checkoutHeader div.inner ol li a {
+	text-indent: -9999px; outline: none;
+	}
+
+#checkoutHeader div.inner ol li.step1 {
+	width: 215px;
+	}
+
+#checkoutHeader div.inner ol li.step2 {
+	width: 155px;
+	}
+
+#checkoutHeader div.inner ol li.step3 {
+	width: 133px;
+	}
+
+#checkoutHeader div.inner ol.step2 {
+	background-position: 0 -40px;
+	}
+
+#checkoutHeader div.inner ol.step3 {
+	background-position: 0 -80px;
+	}
+
+
+
+/*  ::  Page Styles  --  Online Courses  */
+
+#contentOnlineCourses {
+	position: relative; width: 100%; padding: 0 0 40px 0;
+	}
+
+
+div#content.contentOnlineCourses div.content-inner {
+
+    margin-top: 5px;
+}
+#contentOnlineCourses div.message {
+	margin: 0 20px 20px 20px; padding: 10px 16px 0 16px;
+	}
+
+#contentOnlineCourses div.message p {
+	padding: 0 0 10px 0;
+	font-weight: bold;
+	}
+
+#contentOnlineCourses div.messageError {
+	background: #f7dcdb;
+	}
+
+#contentOnlineCourses div.messageError p,
+#contentOnlineCourses div.messageError li {
+	color: #d02128;
+	}
+
+#contentOnlineCourses div.messageSuccess {
+	background: #e5f7fd;
+	}
+
+#contentOnlineCourses div.messageSuccess p,
+#contentOnlineCourses div.messageSuccess li {
+	color: #639ec8;
+	}
+
+#contentOnlineCourses .hidden {
+	display: none;
+	}
+
+#contentOnlineCourses br.clear {
+	clear: both;
+	}
+
+#contentOnlineCourses div.columnBody {
+	float: left; width: 660px; padding: 0 30px;
+	}
+
+#contentOnlineCourses div.columnSidebar {
+	float: left; width: 230px;
+	}
+
+#contentOnlineCourses h1 {
+	margin: 0; padding: 0 0 20px 0; font-size: 3em;
+	}
+
+#contentOnlineCourses h2 {
+	margin: 0; padding: 0 0 6px 0; font-size: 2.4em;
+	}
+
+#contentOnlineCourses h3 {
+	margin: 0; padding: 0 0 4px 0; font-size: 1.9em; color: #666;
+	}
+
+#contentOnlineCourses h4 {
+	margin: 0; padding: 0 0 2px 0; font-size: 1.6em; color: #666;
+	}
+
+#contentOnlineCourses p {
+	margin: 0; padding: 0 0 12px 0;
+	}
+
+#contentOnlineCourses .sectionCourse .date p {
+        padding: 0px;
+
+}
+
+#contentOnlineCourses p.online-note {
+        color: #333;
+        display: none;
+        font-style: italic;
+        margin-top: 10px;
+}
+
+#contentOnlineCourses p.sectionEnd {
+	margin: 0; padding: 0 0 24px 0;
+	}
+
+#contentOnlineCourses fieldset {
+	display: block; margin: 0; padding: 0;
+	}
+
+#contentOnlineCourses label {
+	float: left; font-size: 12px; color: #000; text-align: left; margin: 0; padding: 0 6px 8px 0;
+	width: 140px; font-weight: bold;
+	}
+
+#contentOnlineCourses label.inline {
+	float: left; font-size: 12px; color: #000; text-align: left; margin-right: 12px;
+	white-space: nowrap; width: auto; max-width: 200px;
+	}
+
+#contentOnlineCourses input.text {
+	float: left; width: 245px; margin: 0 0 8px 0; padding: 4px 5px 4px 5px;
+	}
+
+#contentOnlineCourses input[type="image"] {
+	border: none;
+	}
+
+#contentOnlineCourses span.help {
+	clear: left; float: left; display: block; margin: -25px 0 6px 200px; padding: 0; font-size: 10px; white-space: nowrap;
+	}
+
+#contentOnlineCourses select {
+	float: left; margin: 4px 4px 8px 0;
+	}
+
+#contentOnlineCourses input.checkbox,
+#contentOnlineCourses input.radio {
+	float: left; width: 15px; height: 15px; margin: 0 4px 8px 0;
+	}
+
+#contentOnlineCourses textarea {
+	float: left; width: 245px; height: 100px; margin: 0 0 8px 0; padding: 4px 5px 4px 5px;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;
+	font-size: 12px; color: #333;
+	}
+
+#contentOnlineCourses select.invalid,
+#contentOnlineCourses textarea.invalid,
+#contentOnlineCourses input.invalid {
+	background: #f99 !important;
+	}
+
+#contentOnlineCourses input.buttonSubmit {
+	float: left;
+	}
+
+#contentOnlineCourses .profileEdit span.checkbox,
+#contentOnlineCourses .profileEdit span.radio {
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/styled-checkbox.gif) no-repeat;
+	display: block;
+	float: left;
+}
+
+#contentOnlineCourses .profileEdit span.radio {
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/styled-radio.gif) no-repeat;
+}
+
+#contentOnlineCourses .profileEdit span.select {
+	position: absolute;
+	width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	height: 21px;
+	padding: 0 24px 0 8px;
+	color: #fff;
+	font: 12px/21px arial,sans-serif;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/styled-select.gif) no-repeat;
+	overflow: hidden;
+}
+
+
+#contentOnlineCourses span.buttonCancel {
+	float: left; padding: 3px 0 0 15px;
+	font: normal 12px arial, helvetica neue, helvetica, sans-serif;
+	}
+
+#contentOnlineCourses div.hr {
+	margin: 20px 0 0 0; padding: 0 0 25px 0;
+	border-top: 1px solid #eee;
+	}
+
+#contentOnlineCourses div.hr hr {
+	display: none;
+	}
+
+#contentOnlineCourses a.button {
+	display: block; margin: 0 auto; width: 194px; height: 44px; padding: 10px 0 0 0;
+	/*background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/button_bg.png) no-repeat 0px 0px;*/
+        background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/button_bg_green.png) no-repeat 0px 0px;
+	font-size: 16px; font-weight: bold; color: #fff;
+	text-align: center;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	text-decoration: none;
+	}
+#contentOnlineCourses a.button:hover {
+    background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/button_bg_red.png) no-repeat 0px 0px;
+}
+#contentOnlineCourses .disabled {
+	text-decoration: line-through; color: #ccc !important;
+	}
+
+#contentOnlineCourses .disabled span.status {
+	text-decoration: none !important; font-weight: bold;
+	}
+
+#contentOnlineCourses .messageError {
+	padding: 10px 0 10px 16px !important; margin: 0 0 10px 0; width: auto !important;
+	font-size: 14px; color: #c00;
+	background: #fae5e5;
+	}
+
+#contentOnlineCourses .messageSuccess {
+	padding: 10px 0 10px 16px !important; margin: 0 0 10px 0; width: auto !important;
+	font-size: 14px; color: #090;
+	background: #e5f5e5;
+	}
+
+#contentOnlineCourses div.navigationTabs {
+	text-align: center; padding: 55px 0 0 0;
+	border-bottom: 1px solid #3c3933;
+	}
+
+#contentOnlineCourses div.navigationTabs span {
+	padding: 3px 10px; margin: 0 5px;
+	display: inline; display: inline-block; zoom: 1;
+	border: 1px solid #3c3933; border-bottom: 0;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 11px; color: #fff;
+	}
+
+#contentOnlineCourses div.navigationTabs span a {
+	font-size: 11px; font-weight: normal; color: #fff;
+	}
+
+#contentOnlineCourses div.navigationTabs span.active {
+	background: #b9b7b3;
+	}
+
+#contentOnlineCourses div.navigationTabs span.active a {
+	font-size: 11px; font-weight: bold; color: #000;
+	}
+
+#contentOnlineCourses div.helpBubble {
+	position: relative; display: inline; zoom: 1; display: inline-block; margin: 0 0 0 16px;
+	padding: 12px 14px;
+	font: normal 12px arial, helvetica neue, helvetica, sans-serif !important; color: #999 !important;
+	background: #333 !important;
+	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+	}
+
+#contentOnlineCourses div.helpBubble b {
+	position: absolute; display: block; width: 13px; height: 16px; left: -13px; top: 50%; margin: -8px 0 0 0;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/dashboard-elements-helpbubble-arrow.png) no-repeat 0px 0px;
+	text-indent: -9999px; outline: none;
+	}
+
+#contentOnlineCourses div.helpBubbleSmall {
+	position: absolute; top: auto; left: 460px !important; margin: -4px 0 0 0; padding: 4px 10px; font-size: 10px !important;
+	width: 290px; min-height: 20px;
+	}
+
+#contentOnlineCourses div.helpBubbleSmallTextarea {
+	position: absolute; top: auto; left: 600px !important; margin: 5px 0 0 0; padding: 4px 10px; font-size: 10px !important;
+	width: 150px;
+	}
+
+#contentOnlineCourses div.errorBubble {
+	position: relative; display: inline; zoom: 1; display: inline-block; margin: 0 0 0 16px;
+	padding: 12px 14px;
+	font: normal 12px arial, helvetica neue, helvetica, sans-serif !important; color: #111 !important;
+	background: #944 !important;
+	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+	}
+
+#contentOnlineCourses div.errorBubble b {
+	position: absolute; display: block; width: 13px; height: 16px; left: -13px; top: 50%; margin: -8px 0 0 0;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/dashboard-elements-errorbubble-arrow.png) no-repeat 0px 0px;
+	text-indent: -9999px; outline: none;
+	}
+
+#contentOnlineCourses div.errorBubbleSmall {
+	position: absolute; top: auto; left: 495px !important; margin: -4px 0 0 0; padding: 4px 10px; font-size: 10px !important;
+	width: 290px; min-height: 20px;
+	}
+
+#contentOnlineCourses div.errorBubble.hidden {
+	display: none;
+	}
+
+#contentOnlineCourses #breadcrumbs {
+	position: relative; width: 900px; margin: 20px 0 0 40px;
+	}
+
+#contentOnlineCourses #breadcrumbs p {
+	padding: 6px 0 8px 26px;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/breadcrumbs-bg.png) no-repeat 0 0;
+	font: normal 12px arial, helvetica neue, helvetica, sans-serif; color: #fff;
+	}
+
+#contentOnlineCourses #breadcrumbs p a,
+#contentOnlineCourses #breadcrumbs p b,
+#contentOnlineCourses #breadcrumbs p span {
+	font-weight: bold; color: #fff; text-decoration: none; padding: 0 1px;
+	}
+
+#contentOnlineCourses #breadcrumbs p a:hover {
+	text-decoration: underline;
+	}
+
+#contentOnlineCourses div.inner {
+	padding: 10px 19px;
+	}
+
+#contentOnlineCourses span.required {
+	position: relative; top: 7px;
+	font: bold 24px/10px arial, helvetica neue, helvetica, sans-serif; color: #ff9900;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Article  ::  Page Header  */
+
+#contentOnlineCourses div.articlePageHeader {
+	position: relative; width: 920px; margin: 0; padding: 8px 30px 15px 30px;
+	}
+
+#contentOnlineCourses div.articlePageHeader h2.checkout {
+	margin: 0; padding: 0;
+	font: bold 21px arial, helvetica neue, helvetica, sans-serif; color: #333;
+	background: url(images/article-pageheader-secureorder.png) no-repeat 100% 0;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Article  ::  Course List  */
+
+#contentOnlineCourses div.articleCourseList {
+	position: relative; width: 880px; margin: 0 30px 20px 30px; padding: 20px 19px 10px 19px;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.articleCourseList table {
+	width: 100%;
+	}
+
+#contentOnlineCourses div.articleCourseList table td {
+	font-size: 13px;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Article  ::  Account Dashboard  */
+
+#contentOnlineCourses div.articleAccountDashboard {
+	position: relative; width: 900px; margin: 60px 0 0 40px;
+	border: 1px solid #624e40;
+	border-radius: 9px; -moz-border-radius: 9px; -webkit-border-radius: 9px;
+	background: url(images/dashboard-content-bg-i24a8.png);
+	}
+
+#contentOnlineCourses div.articleAccountDashboard a:hover {
+	color: #ede200 !important; text-decoration: underline;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.intro {
+	margin: 0 0 10px 0; padding: 50px 0 25px 80px;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.intro h1 {
+	margin: 0; padding: 0;
+	font-weight: bold; font-size: 18px; line-height: 1.3; color: #fff;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.intro h1 b {
+	font-size: 35px; color: #ede200;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.announcements {
+	position: relative; width: 750px; margin: -10px 0 25px 50px; padding: 15px 25px;
+	background: #d8cd00;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.announcements h2 {
+	margin: 0; padding: 0 0 8px 0;
+	color: #000; font-size: 16px; font-weight: bold;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.announcements ul {
+	margin: 0; padding: 0; list-style: none;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.announcements ul li {
+	font-size: 13px; color: #000; border: 0;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.announcements a.buttonClose {
+	position: absolute; right: 10px; top: 10px; width: 18px; height: 18px;
+	background: url(images/button-icon-close.png) no-repeat 0px 0px;
+	text-indent: -9999px; outline: none;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content {
+	position: relative; width: 895px; margin: 0 15px; padding: 0 0 60px 45px;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.edit .readonly,
+#contentOnlineCourses div.articleAccountDashboard div.content div.readonly .edit {
+	display: none;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.contentItem {
+	float: left; width: 180px; padding: 0 25px 20px 55px;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.contentItem label {
+	font-size: 12px; color: #ccc; padding-bottom: 0;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.contentItem h3,
+#contentOnlineCourses div.articleAccountDashboard div.content div.contentItem h3 a {
+	font-size: 15px; font-weight: bold; color: #fff;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.contentItem p {
+	font-size: 12px; color: #ccc; line-height: 1.4;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.contentItem p.messageError {
+	font-size: 14px; color: #c00;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.contentItem p.messageSuccess {
+	font-size: 14px; color: #090;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.orientation {
+	background: url(images/article-accountdashboard-icon-orientation.png) no-repeat 14px 0px;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.classrooms {
+	background: url(images/article-accountdashboard-icon-classrooms.png) no-repeat 5px 0px;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.forum {
+	background: url(images/article-accountdashboard-icon-forum.png) no-repeat 0px 0px;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.account {
+	background: url(images/article-accountdashboard-icon-account.png) no-repeat 11px 0px;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.profile {
+	background: url(images/article-accountdashboard-icon-profile.png) no-repeat 4px 0px;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.content div.faqs {
+	background: url(images/article-accountdashboard-icon-faq.png) no-repeat 3px 0px;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.changepassword,
+#contentOnlineCourses div.articleAccountDashboard div.updateaddress {
+	width: 380px !important; padding: 0 25px 50px 40px !important;
+	}
+
+#contentOnlineCourses div.articleAccountDashboard div.changepassword form,
+#contentOnlineCourses div.articleAccountDashboard div.updateaddress form {
+	display: block; padding: 0 0 20px 0;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Article  ::  Account Tabs  */
+
+#contentOnlineCourses div.articleAccountTabs {
+	position: relative; width: 980px; margin:  0 0 0;
+	}
+
+#contentOnlineCourses div.articleAccountTabs h1 {
+	margin: 0; padding: 30px 0 10px 0;
+	font-weight: normal; font-size: 29px; line-height: 1.3; color: #ede200;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.containerTabs ul {
+	position: relative; display: block; width: 100%; overflow: hidden;
+	margin: 0; padding: 0;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.containerTabs ul li {
+	float: left; display: block; margin: 0 6px 0 0; padding: 0;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.containerTabs a {
+	float: left; display: block; padding: 6px 15px 5px 15px;
+	background: #ddd; font-size: 12px; color: #666; text-decoration: none;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.containerTabs a:hover {
+	background: #fff; color: #000;
+	}
+
+#contentOnlineCourses div.articleAccountTabsAccount div.containerTabs a.account,
+#contentOnlineCourses div.articleAccountTabsStudent div.containerTabs a.student,
+#contentOnlineCourses div.articleAccountTabsBilling div.containerTabs a.billing {
+	font-weight: bold; color: #000;
+	background: #fff;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.containerContent {
+	position: absolute; left: -9999px; width: 860px; padding: 40px 50px 60px 50px;
+	background: #fff; font-size: 12px;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.containerContent label {
+	color: #333;
+	}
+
+#contentOnlineCourses div.articleAccountTabsAccount div.containerAccount,
+#contentOnlineCourses div.articleAccountTabsStudent div.containerStudent,
+#contentOnlineCourses div.articleAccountTabsBilling div.containerBilling {
+	position: relative; left: 0; top: 0;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.content div.edit .readonly,
+#contentOnlineCourses div.articleAccountTabs div.content div.readonly .edit {
+	display: none;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.content div.contentItem {
+	float: left; width: 180px; padding: 0 25px 20px 55px;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.content div.contentItem label {
+	font-size: 12px; color: #ccc; padding-bottom: 0;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.content div.contentItem h3,
+#contentOnlineCourses div.articleAccountTabs div.content div.contentItem h3 a {
+	font-size: 15px; font-weight: bold; color: #fff;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.content div.contentItem p {
+	font-size: 12px; color: #ccc; line-height: 1.4;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.content div.contentItem p.messageError {
+	font-size: 14px; color: #c00;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.content div.contentItem p.messageSuccess {
+	font-size: 14px; color: #090;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.changepassword,
+#contentOnlineCourses div.articleAccountTabs div.updateaddress {
+	width: 380px !important; padding: 0 25px 50px 40px !important;
+	}
+
+#contentOnlineCourses div.articleAccountTabs div.changepassword form,
+#contentOnlineCourses div.articleAccountTabs div.updateaddress form {
+	display: block; padding: 0 0 20px 0;
+	}
+
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Article  ::  My Profile  */
+
+#contentOnlineCourses div.articleMyProfile {
+	position: relative; width: 900px; margin: 20px 0 0 40px;
+	border: 1px solid #624e40;
+	border-radius: 9px; -moz-border-radius: 9px; -webkit-border-radius: 9px;
+	background: url(images/dashboard-content-bg-i24a8.png);
+	}
+
+#contentOnlineCourses div.articleMyProfile h1 {
+	color: #fff;
+	}
+
+#contentOnlineCourses div.articleMyProfile h3.accountSettings {
+	padding-bottom: 35px !important;
+	font-size: 24px !important; color: #eee300 !important;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profilePane {
+	margin: 0; padding: 30px 60px;
+	}
+
+#contentOnlineCourses div.articleMyProfile h4.sidebarHeading {
+	float: left !important; width: 155px !important; margin: 0 !important; padding: 0 20px 0 0 !important;
+	font: bold 16px arial, helvetica neue, helvetica, sans-serif !important; color: #fff !important;
+	}
+
+#contentOnlineCourses div.articleMyProfile .formContainer {
+	overflow: hidden;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay {
+	position: relative; width: 840px; padding: 20px 30px; overflow: hidden;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.photo {
+	float: left; width: 130px;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.photo img.photo {
+	padding: 1px; border: 1px solid #ddd;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.text {
+	position: relative; overflow: hidden;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay a.buttonEdit {
+	float: right;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.section {
+	position: relative; padding: 0 0 30px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.section h2 {
+	margin: 0; padding: 0 0 4px 0;
+	font: bold 30px arial, helvetica neue, helvetica, sans-serif; color: #eee300;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.section h3 {
+	margin: 0 !important; padding: 25px 0 6px 0 !important;
+	font: bold 16px arial, helvetica neue, helvetica, sans-serif !important;; color: #fff !important;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.section p {
+	margin: 0 !important; padding: 0 0 16px 0 !important;
+	line-height: 1.5; color: #b2b2b2;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.section p.basicInfo {
+	font: bold 14px arial, helvetica neue, helvetica, sans-serif; color: #fff;
+	line-height: 1.8;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.section p.role {
+	position: absolute; bottom: 0; right: 0; margin: 0; padding: 0;
+	font: bold 11px arial, helvetica neue, helvetica, sans-serif; color: #b2b2b2;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.section ul.courses {
+	margin: 0; padding: 0; list-style: none;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.section ul.courses li {
+	margin: 0 !important; padding: 0 0 6px 0 !important;
+	color: #b2b2b2; font-size: 1.5em;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.section a {
+	color: #eee300; text-decoration: none;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileDisplay div.section a:hover {
+	color: #eee300; text-decoration: underline;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.hr {
+	position: relative; width: 100%; height: 1px; margin: 0; padding: 0;
+	border-top: 1px solid #373326;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.hr hr {
+	display: none;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountLogin {
+	position: relative; width: 860px; padding: 30px 20px; overflow: hidden;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountLogin div.photo {
+	float: left; width: 150px;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountLogin div.photo img.photo {
+	padding: 1px; border: 1px solid #ddd;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountLogin div.text {
+	float: left; width: 770px;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountLogin a.buttonEdit {
+	float: right;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountLogin div.section {
+	padding: 0 0 30px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountLogin div.section p {
+	line-height: 1.5;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountShipping {
+	position: relative; width: 940px; padding: 30px 20px; overflow: hidden;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountShipping div.photo {
+	float: left; width: 150px;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountShipping div.photo img.photo {
+	width: 100px; border: 1px solid #ddd;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountShipping div.text {
+	float: left; width: 770px;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountShipping a.buttonEdit {
+	float: right;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountShipping div.section {
+	padding: 0 0 30px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountShipping div.section p {
+	line-height: 1.5;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountBilling {
+	position: relative; width: 940px; padding: 30px 20px; overflow: hidden;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountBilling div.photo {
+	float: left; width: 150px;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountBilling div.photo img.photo {
+	padding: 1px; border: 1px solid #ddd;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountBilling div.text {
+	float: left; width: 770px;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountBilling a.buttonEdit {
+	float: right;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountBilling div.section {
+	padding: 0 0 30px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.accountBilling div.section p {
+	line-height: 1.5;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileEdit {
+	position: relative; width: 840px; padding: 20px 30px; overflow: hidden;
+	}
+
+#contentOnlineCourses div.articleMyProfile br.clear {
+	clear: both;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileEdit p {
+	line-height: 1.3; padding: 0 0 8px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileEdit p span.note {
+	font-size: 10px; color: #999;
+	}
+
+#contentOnlineCourses div.articleMyProfile p.messageError {
+	padding: 10px 0 10px 16px !important; margin: 0 0 10px 0; width: auto !important;
+	font-size: 14px; color: #c00;
+	background: #fae5e5;
+	}
+
+#contentOnlineCourses div.articleMyProfile p.messageSuccess {
+	padding: 10px 0 10px 16px !important; margin: 0 0 10px 0; width: auto !important;
+	font-size: 14px; color: #090;
+	background: #e5f5e5;
+	}
+
+#contentOnlineCourses div.articleMyProfile fieldset {
+	display: block; margin: 0; padding: 0 0 30px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile fieldset p {
+	color: #ccc;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileEdit h2.sectionHeading {
+	padding: 0 0 10px 0;
+	font: bold 16px arial, helvetica neue, helvetica, sans-serif; color: #fff;
+	}
+
+#contentOnlineCourses div.articleMyProfile fieldset h2 {
+	padding: 20px 0 30px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileEdit fieldset h2 {
+	padding: 15px 0;
+	font: bold 16px arial, helvetica neue, helvetica, sans-serif; color: #fff;
+	border-top: 1px solid #868685;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.group {
+	position: relative; padding: 0 0 20px 0; overflow: hidden;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileEdit fieldset {
+	padding: 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.columns2 {
+	float: left; width: 48%; overflow: hidden;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.columns2 p {
+	font-size: 11px; padding: 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile img.photo {
+	border: 1px solid #898885;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.fileUploadWidget {
+	position: relative; float: left; display: block; width: 500px; height: 22px; margin: 0 0 10px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.fileUploadWidget div.button {
+	float: left; width: 90px; height: 22px;
+	background: url(images/button-choosefile.png) no-repeat 0px 0px;
+	cursor: pointer;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.fileUploadWidget div.filename {
+	float: left; padding: 0px 0 0 10px; width: 400px; white-space: nowrap; overflow: hidden;
+	font-size: 12px; color: #ccc;
+	user-select: none; -moz-user-select: none; -webkit-user-select: none; cursor: default;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.fileUploadWidget input {
+	position: absolute; display: block; width: 90px; height: 22px; top: 0; left: 0;
+	opacity: 0.01; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)"; filter: alpha(opacity=1);
+	cursor: pointer;
+	}
+
+#contentOnlineCourses div.articleMyProfile label {
+	float: none; display: block; padding: 0 0 2px 0; width: auto;
+	font-size: 1.4em; color: #fff; font-weight: bold;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileEdit label {
+	float: left; display: block; padding: 0 0 2px 0; width: 160px;
+	font-size: 1.4em; color: #fff; font-weight: bold;
+	}
+
+#contentOnlineCourses div.articleMyProfile label.inline {
+	float: left; width: auto; margin: 0 0 16px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile span.inline {
+	float: left; padding: 1px 0 0 0; font-size: 11px;
+	}
+
+#contentOnlineCourses div.articleMyProfile input {
+	float: left; margin: 0 10px 16px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile input.text {
+	width: 230px; padding: 3px 5px;
+	background: #fff url(images/myprofile-edit-textarea-bg.png) repeat 0px 100%;
+	}
+
+#contentOnlineCourses div.articleMyProfile input[type="file"] {
+	color: #fff; border: 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile input.sizeL {
+	width: 230px !important;
+	}
+
+#contentOnlineCourses div.articleMyProfile input.sizeM {
+	width: 105px;
+	}
+
+#contentOnlineCourses div.articleMyProfile input.sizeS {
+	width: 80px;
+	}
+
+#contentOnlineCourses div.articleMyProfile input.checkbox,
+#contentOnlineCourses div.articleMyProfile input.radio {
+	float: left; width: 15px; height: 15px; margin: 0 4px 16px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile textarea {
+	float: left; width: 380px; height: 80px; margin: 0 0 16px 0; padding: 4px 5px 4px 5px;
+	background: #fff url(images/myprofile-edit-textarea-bg.png) repeat 0px 100%;
+	border: 1px solid #e0e0e0;
+	border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px;
+	font-size: 12px; color: #333;
+	}
+
+#contentOnlineCourses div.articleMyProfile select {
+	float: left; margin: 2px 10px 16px 0; padding: 3px 5px;
+	background: #fff url(images/myprofile-edit-textarea-bg.png) repeat 0px 100%;
+	border: 1px solid #e0e0e0;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	}
+
+#contentOnlineCourses div.articleMyProfile optgroup {
+	background: #fff url(images/myprofile-edit-textarea-bg.png) repeat 0px 100%;
+	}
+
+#contentOnlineCourses div.articleMyProfile option {
+	background: #fff url(images/myprofile-edit-textarea-bg.png) repeat 0px 100%;
+	}
+
+#contentOnlineCourses div.articleMyProfile a.buttonUpload {
+	clear: left; float: left; margin: 4px 0 16px 0;
+	}
+
+#contentOnlineCourses div.articleMyProfile img.progressbar {
+	float: left; margin: 4px 0 0 6px;
+	}
+
+#contentOnlineCourses div.articleMyProfile p.characterCount {
+	position: absolute; left: 0; bottom: 10px; font-size: 11px;
+	}
+
+#contentOnlineCourses div.articleMyProfile select.invalid,
+#contentOnlineCourses div.articleMyProfile textarea.invalid,
+#contentOnlineCourses div.articleMyProfile input.invalid {
+	background: #f99 !important;
+	}
+
+#contentOnlineCourses div.articleMyProfile .dijitTextBox {
+	border: 1px solid #e0e0e0; padding: 5px; max-width: 200px; margin: 0 0 8px 0;
+	border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;
+	}
+
+#contentOnlineCourses div.articleMyProfile input.sizeXL,
+#contentOnlineCourses div.articleMyProfile textarea.sizeXL {
+	width: 600px;
+	}
+
+#contentOnlineCourses div.articleMyProfile input.sizeL,
+#contentOnlineCourses div.articleMyProfile textarea.sizeL {
+	width: 500px;
+	}
+
+#contentOnlineCourses div.articleMyProfile input.sizeS,
+#contentOnlineCourses div.articleMyProfile textarea.sizeS {
+	width: 130px;
+	}
+
+#contentOnlineCourses div.articleMyProfile input.sizeXS,
+#contentOnlineCourses div.articleMyProfile textarea.sizeXS {
+	width: 75px;
+	}
+
+#contentOnlineCourses div.articleMyProfile textarea.error,
+#contentOnlineCourses div.articleMyProfile textarea.textError,
+#contentOnlineCourses div.articleMyProfile input.textError {
+	border-color: #e9622d;
+	}
+
+#contentOnlineCourses div.articleMyProfile textarea.success,
+#contentOnlineCourses div.articleMyProfile textarea.textSuccess,
+#contentOnlineCourses div.articleMyProfile input.textSuccess {
+	border-color: #78e965;
+	}
+
+#contentOnlineCourses div.articleMyProfile span.errorIcon {
+	float: left; display: block; width: 35px; height: 30px;
+	background: url(images/register-icon-star-red-i8a8.png) no-repeat 50% 50%;
+	}
+
+#contentOnlineCourses div.articleMyProfile span.successIcon {
+	float: left; display: block; width: 70px; height: 30px; padding: 0 0 0 35px;
+	background: url(images/register-icon-star-green-i8a8.png) no-repeat 5px 50%;
+	font-size: 13px; color: #78e965;
+	}
+
+#contentOnlineCourses div.articleMyProfile div.profileEdit div.formItems:first-child span.removeLink {
+	display: none;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Section  ::  Cart  */
+
+#contentOnlineCourses div.sectionCart {
+	position: relative; width: 658px; margin: 0 0 20px 0; padding: 0 0 20px 0;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.sectionCart h2 {
+	padding: 8px 19px 6px 19px;
+	background: #999; color: #fff;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 18px; font-weight: bold;
+	}
+
+#contentOnlineCourses div.sectionCart div.cartItem {
+	position: relative; width: 620px; margin-left: 19px; padding: 25px 0 0 0;
+	border-top: 1px solid #eee;
+	}
+
+#contentOnlineCourses div.sectionCart div.cartItem div.details {
+	float: left; width: 400px;
+	}
+
+#contentOnlineCourses div.sectionCart div.cartItem div.details span.label {
+	width: 70px; display: inline; display: inline-block; zoom: 1;
+	}
+
+#contentOnlineCourses div.sectionCart div.cartItem div.pricing {
+	float: left; width: 220px;
+	text-align: right;
+	}
+
+#contentOnlineCourses div.sectionCart div.cartItem ul {
+	margin: 0; padding: 0 0 25px 0;
+	}
+
+#contentOnlineCourses div.sectionCart div.cartItem li {
+	margin: 0; padding: 0; border: 0;
+	}
+
+#contentOnlineCourses div.sectionCart div.cartItem span.currency {
+	font-size: 80%; color: #999;
+	}
+#contentOnlineCourses div.sectionCart div.cartItem span.discount {
+	font-style: italic;
+	}
+
+#contentOnlineCourses div.sectionCart div.cartItem li.totals {
+	padding-bottom: 15px;
+	font-size: 14px;
+	}
+
+#contentOnlineCourses div.sectionCart div.cartItem li.savings {
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+	color: #090;
+	}
+
+#contentOnlineCourses div.sectionCart div.cartItem li.note {
+	color: #ff9900; font-size: 11px;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Section  ::  Course  */
+
+#contentOnlineCourses div.sectionCourse {
+	position: relative; width: 658px; margin: 0 0 20px 0; padding: 20px 0 20px 0;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.details {
+	position: relative; width: 620px; margin-left: 19px; overflow: hidden; padding: 0 0 0px 0;
+	}
+
+#contentOnlineCourses div.sectionCourse div.details div.photo {
+	float: left; width: 125px; height: 75px; overflow: hidden; margin: 0 15px 20px 0;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.details div.text {
+	}
+
+#contentOnlineCourses div.sectionCourse div.details div.text h2 {
+	margin: 0; padding: 2px 0 4px 0; font-size: 22px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.details div.text p {
+	font-size: 13px; margin: 0; padding: 5px 0 5px 0; line-height: 1.5;
+	}
+#contentOnlineCourses div.sectionCourse div.details div.text h3 {
+    font: bold 16px sans-serif;
+    color: #000000;
+    clear: both;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding: 0px
+}
+#contentOnlineCourses div.sectionCourse div.details div.text ul {
+        list-style: disc inside none !important;
+        margin: 0px;
+
+
+}
+#contentOnlineCourses div.sectionCourse div.details div.text br {
+    margin-bottom: 15px;
+}
+#contentOnlineCourses div.sectionCourse div.details div.text li,
+#contentOnlineCourses div.sectionCourse div.details div.text li a {
+	font: normal 12px sans-serif;
+        margin-left: 2px;
+        color: #666;
+	text-decoration: none;
+        border: none;
+}
+
+#contentOnlineCourses div.sectionCourse div.details div.text li span.grey {
+
+	color: #666666;
+}
+
+#contentOnlineCourses div.sectionCourse div.details div.text p {
+
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#contentOnlineCourses div.sectionCourse div.schedule {
+	background-color: #F0F0F0; padding: 5px 19px 10px 19px;
+
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule h3 {
+	font-size: 20px; color: #4c4c4c; padding: 0 0 15px 0;
+        background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/register_step_1.jpg") no-repeat 0px 0px;
+        height: 48px;
+        width: 672px;
+        position: relative;
+        left: -33px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule h3 span {
+            display: none;
+}
+
+#contentOnlineCourses div.sectionCourse div.schedule label.cols2 {
+	float: left; width: 240px; padding: 0 10px 0 0;
+	text-align: left; font-size: 12px; color: #4c4c4c;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.groupCols2 {
+	float: left; width: 370px; padding: 0 0 10px 0;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.groupCols2 label {
+	font-weight: normal;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.groupLocations label {
+	width: 150px; font-weight: normal;
+	color: #4c4c4c;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.groupDays label {
+	width: 30px; font-weight: normal;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.groupDays span.stacked {
+	position: relative; float: left; width: 44px; height: 22px;
+	overflow: hidden;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.groupDays span.stacked label {
+	display: block; width: 42px; height: 16px; padding: 4px 0 0 0; margin: 0;
+	text-align: center;
+	border: 1px solid #ccc;
+	color: #4c4c4c; background: #fff; line-height: 12px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.groupDays span.stacked label.active {
+	border: 1px solid #666;
+	background: #101010; color: #ccc;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.groupDays span.stacked input {
+	position: absolute; display: block; left: 0; top: 0; width: 42px; height: 20px;
+	opacity: 0.01; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)"; filter: alpha(opacity=1);
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.groupTimes label {
+	width: 60px; font-weight: normal;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.slider {
+	position: relative; width: 300px; height: 7px; padding: 10px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.ui-slider-horizontal {
+	position: relative; width: 350px; height: 7px;
+	background: url(images/global-elements-slider-bg.png) no-repeat -1000px 0px;
+	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule a.ui-slider-handle {
+	position: absolute; left: 0; top: 4px; display: block; width: 20px; height: 20px; margin: -9px 0 0 -10px;
+	background: url(images/global-elements-slider-arrow-down.png) no-repeat 50% 50%;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.labels {
+	position: relative; width: 350px; height: 20px; margin: 0 10px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.labels label {
+	float: none; position: absolute; width: 200px; top: 0; margin: 0 0 0 -100px;
+	font-size: 12px; text-align: center;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.labels label.first {
+	text-align: left; margin: 0 0 0 -10px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.schedule div.labels label.last {
+	text-align: right; margin: 0 0 0 -190px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.location,
+#contentOnlineCourses div.sectionCourse div.date,
+#contentOnlineCourses div.sectionCourse div.payment {
+	padding: 25px 0 0 0; width: 620px; margin-left: 19px;
+	/* border-top: 1px solid #eee; */
+	}
+
+#contentOnlineCourses div.sectionCourse div.location h3,
+#contentOnlineCourses div.sectionCourse div.date h3,
+#contentOnlineCourses div.sectionCourse div.payment h3 {
+	font-size: 20px; color: #4c4c4c;
+	}
+#contentOnlineCourses div.sectionCourse div.date h3 {
+        background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/register_step_2.jpg") no-repeat 0px 0px;
+        height: 48px;
+        width: 672px;
+        position: relative;
+        left: -33px;
+        padding-bottom: 15px;
+}
+
+#contentOnlineCourses div.sectionCourse div.date h3 span {
+    display: none;
+}
+
+#contentOnlineCourses div.sectionCourse div.payment h3 {
+        background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/register_step_3.jpg") no-repeat 0px 0px;
+        height: 48px;
+        width: 672px;
+        position: relative;
+        left: -33px;
+        padding-bottom: 15px;
+}
+
+#contentOnlineCourses div.sectionCourse div.payment h3 span {
+    display: none;
+}
+#contentOnlineCourses div.sectionCourse div.location label,
+#contentOnlineCourses div.sectionCourse div.date label,
+#contentOnlineCourses div.sectionCourse div.payment label {
+	font-weight: normal; color: #4c4c4c;
+	}
+
+#contentOnlineCourses div.sectionCourse div.payment .currency {
+	color: #888888; font-weight: bold;
+	}
+
+#contentOnlineCourses div.sectionCourse div.payment .save {
+	color: #ff9900; font-style: italic;
+	}
+
+#contentOnlineCourses div.sectionCourse div.payment .planPayments {
+	font-style: italic;
+	}
+
+#contentOnlineCourses div.sectionCourse div.payment .payment_plan,
+#contentOnlineCourses div.sectionCourse div.payment .payment_plan_online {
+	margin-left: 4px; font-size: 12px; color: #900;
+	}
+
+#contentOnlineCourses div.sectionCourse div.payment .payment_plan:hover,
+#contentOnlineCourses div.sectionCourse div.payment .payment_plan_online:hover {
+	text-decoration: underline;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date div.noStartDates {
+	margin: 0 0 10px 0; padding: 12px 10px 12px 55px;
+	border: 1px solid #fc0;
+	background: #ffffcc url(images/registration-dates-nodatesavail-bg.png) no-repeat 20px 50%;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date div.noStartDates p {
+	margin: 0; padding: 0;
+	font: bold 12px arial, helvetica neue, helvetica, sans-serif; color: #ff9900;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date div.courseDuration {
+	margin: 0 0 10px 0; padding: 12px 0px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date div.courseDuration p {
+	margin: 0; padding: 0;
+	font: bold 12px arial, helvetica neue, helvetica, sans-serif; color: #333;
+	text-align: right;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date #ajaxTableDateTime {
+	padding: 10px 0 0 0;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date h4 {
+	margin: 0; padding: 0 0 0 6px;
+	line-height: 1.2;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date p.description {
+	margin: 0; padding: 0 0 10px 6px;
+	font-size: 11px; color: #666;
+	line-height: 1.2;
+	}
+
+
+#contentOnlineCourses div.sectionCourse div.date .input {
+	width: 59px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date .location {
+	width: 76px;
+	}
+#contentOnlineCourses div.sectionCourse div.date .OnlineSchool .location,
+#contentOnlineCourses div.sectionCourse div.date .OnlineSchool .start{
+	width: auto;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date .start {
+	width: 86px;
+        font-weight: bold;
+	}
+#contentOnlineCourses div.sectionCourse div.date .start span#date-info {
+    display: block;
+    font-weight: normal;
+    line-height: 1.2em;
+    padding-bottom: 5px;
+}
+#contentOnlineCourses div.sectionCourse div.date .end {
+	width: 86px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date .days {
+	width: 116px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date .times {
+	width: 119px; text-align: right; 
+	}
+#contentOnlineCourses div.sectionCourse div.date .time {
+	width: 119px; text-align: left; 
+}
+#contentOnlineCourses div.sectionCourse div.date th.times{
+	width: 119px; text-align: left; 
+}
+
+#contentOnlineCourses div.sectionCourse div.date td.length {
+    text-align: right;
+}
+
+#contentOnlineCourses div.sectionCourse div.date td.length {
+    text-align: right;
+}
+
+#contentOnlineCourses div.sectionCourse div.date .OnlineSchool td.length {
+    text-align: left;
+}
+
+
+#contentOnlineCourses div.sectionCourse div.date .length {
+	text-align: left; 
+}
+
+#contentOnlineCourses div.sectionCourse div.date th.length {
+	padding-right; 2px; }
+
+#contentOnlineCourses div.sectionCourse div.date td.length {
+	text-align: right; padding-right: 2px; 
+}
+
+#contentOnlineCourses div.sectionCourse div.date table {
+	width: 100%; table-layout: fixed;
+	
+	}
+
+#contentOnlineCourses div.sectionCourse div.date thead th {
+	font-size: 10px; color: #FFF; padding-top: 1px; padding-bottom: 1px;
+	text-align: left; text-transform: uppercase; font-weight: normal;
+	padding-left: 0px; padding-right: 0px;
+	background: #808080;
+	border-right: 1px solid #d7d7d7;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date thead th span {
+	display: block; padding: 0 8px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date thead th.input {
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	text-align: center !important;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date thead th.length {
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-right: none;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody td {
+	font-size: 11px; color: #666; padding-top: 3px; padding-bottom: 3px;
+	padding-left: 0px; padding-right: 0px;
+	text-align: left; font-weight: normal;
+	border-right: 1px solid #d7d7d7;
+	vertical-align: middle;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody td span {
+	display: block; padding: 0 6px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody td.length {
+	border-right: none !important;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody td.input {
+	text-align: center;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody td input {
+	width: 15px; height: 15px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody tr.even td {
+	background: #ededed;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody tr.active td {
+	color: #8d0000 !important; font-weight: bold;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody tr.disabled td {
+	color: #999 !important; font-weight: normal !important; text-decoration: line-through;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody tr.disabled td input {
+	visibility: hidden; position: absolute; left: -9999px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody tr:last-child td.input {
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 7px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 7px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date tbody tr:last-child td.length {
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 0px;
+	}
+
+#contentOnlineCourses div.sectionCourse div.date div.tableContainer {
+	width: 100%;
+	border: 1px solid #ccc;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	}
+
+#contentOnlineCourses div.sectionCourse a.seeMore {
+	font-size: 1.4em !important;
+	}
+
+#contentOnlineCourses div.sectionCourse fieldset {
+	padding: 8px 0 0px 0;
+	}
+
+#contentOnlineCourses div.sectionCourse label {
+	width: auto;
+	}
+
+#contentOnlineCourses div.sectionCourse label b {
+	color: #000;
+	}
+
+#contentOnlineCourses div.sectionCourse h4 {
+	padding: 0 0 6px 0; color: #333;
+	}
+
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Section  ::  Checkout Account  */
+
+#contentOnlineCourses div.sectionCheckoutAccount {
+	position: relative; width: 658px; margin: 0 0 20px 0; padding: 0 0 20px 0;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.sectionCheckoutAccount div.helpBox {
+	float: right; width: 170px; padding: 10px 15px; margin: 10px 0 0 0;
+	background: #ffffcc;
+	border: 1px solid #ffcc00;
+	}
+
+#contentOnlineCourses div.sectionCheckoutAccount div.helpBox p {
+	line-height: 1.3;
+	}
+
+#contentOnlineCourses div.sectionCheckoutAccount h2 {
+	padding: 8px 19px 6px 19px;
+	background: #999; color: #fff;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 18px; font-weight: bold;
+	}
+
+#contentOnlineCourses div.sectionCheckoutAccount label {
+	color: #666; font-weight: normal;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Section  ::  Checkout Payment  */
+
+#contentOnlineCourses div.sectionCheckoutPayment {
+	position: relative; width: 658px; margin: 0 0 20px 0; padding: 0 0 20px 0;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.sectionCheckoutPayment img {
+	float: right;
+	}
+
+#contentOnlineCourses div.sectionCheckoutPayment br.clear {
+	clear: left;
+	}
+
+#contentOnlineCourses div.sectionCheckoutPayment label {
+	color: #666; font-weight: normal;
+	}
+
+#contentOnlineCourses div.sectionCheckoutPayment h2 {
+	padding: 8px 19px 6px 19px;
+	background: #999; color: #fff;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 18px; font-weight: bold;
+	}
+
+#contentOnlineCourses div.sectionCheckoutPayment span.help {
+	clear: none; float: left; width: 200px; margin: 0; padding: 2px 0 0 6px;
+	font-size: 12px; color: #999;
+	}
+
+#contentOnlineCourses div.sectionCheckoutPayment span.help a.cvv {
+	position: relative; display: block; width: 13px; height: 13px; z-index: 2000;
+	background: url(images/global-elements-icon-questionmark-red-small.png) no-repeat 0px 0px;
+	text-decoration: none;
+	}
+
+#contentOnlineCourses div.sectionCheckoutPayment span.help a.cvv span {
+	display: none;
+	}
+
+#contentOnlineCourses div.sectionCheckoutPayment span.help a.cvv:hover span {
+	position: absolute; display: block; left: 35px; top: 7px; width: 350px; padding: 18px 20px;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	background: #fff; border: 8px solid #dbdbdb;
+	white-space: normal;
+	font-weight: normal; line-height: 1.2; font-size: 12px; color: #000;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Section  ::  Checkout Verify  */
+
+#contentOnlineCourses div.sectionCheckoutVerify {
+	position: relative; width: 658px; margin: 0 0 20px 0; padding: 0 0 20px 0;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify h2 {
+	padding: 8px 19px 6px 19px;
+	background: #999; color: #fff;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 18px; font-weight: bold;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify div.body {
+	width: 620px; margin-left: 19px; padding: 20px 0 0 0;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify div.cols3 {
+	float: left; width: 33%;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify label {
+	color: #666; font-weight: normal;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify ul {
+	margin: 0; padding: 0 0 25px 0;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify li {
+	margin: 0; padding: 0; border: 0;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify div.agree label {
+	padding: 0;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify div.cartItem {
+	position: relative; width: 100%;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify div.cartItem div.details {
+	float: left; width: 400px;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify div.cartItem div.pricing {
+	float: left; width: 220px;
+	text-align: right;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify div.cartItem span.currency {
+	font-size: 80%; color: #999;
+	}
+#contentOnlineCourses div.sectionCheckoutVerify div.cartItem span.discount {
+	font-style: italic;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify div.cartItem li.totals {
+	padding-bottom: 15px;
+	font-size: 14px;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify div.cartItem li.savings {
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+	color: #090;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify div.cartItem li.note {
+	color: #ff9900; font-size: 11px;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify ul.community li {
+	padding: 4px 0 4px 29px; font-size: 13px;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify ul.community li.newsletter {
+	background: url(images/checkout-verify-community-newsletter.png) no-repeat 2px 50%;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify ul.community li.blog {
+	background: url(images/checkout-verify-community-blog.png) no-repeat 0px 50%;
+	}
+
+#contentOnlineCourses div.sectionCheckoutVerify ul.community li.video {
+	background: url(images/checkout-verify-community-video.png) no-repeat 0px 50%;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Section  ::  Text  */
+
+#contentOnlineCourses div.sectionText {
+	position: relative; width: 620px; margin: 0 0 20px 0; padding: 20px 19px 10px 19px;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.sectionText table {
+	width: 100%;
+	}
+
+#contentOnlineCourses div.sectionText table td {
+	font-size: 1.4em;
+	}
+
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Section  ::  Call To Action  */
+
+#contentOnlineCourses div.sectionCallToAction {
+	position: relative; width: 660px; margin: 0 0 20px 0; padding: 0;
+	}
+
+#contentOnlineCourses div.sectionCallToAction table {
+	margin: 0; padding: 0; border: 0;
+	}
+
+#contentOnlineCourses div.sectionCallToAction table td {
+	padding: 10px 25px 10px 10px; text-align: left; vertical-align: middle;
+	font-size: 14px;
+	}
+
+#contentOnlineCourses div.AuthorizeNetSeal {
+    float: right;
+    position: relative;
+    top: -100px;
+	right: 5px;
+}
+
+/* ::  Page Styles  --  Online Courses  ::  Sidebar  ::  Item Summary   */
+
+#contentOnlineCourses div.sidebarItemSummary {
+	position: relative; width: 200px; margin: 0 0 20px 0; padding: 14px;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary h2 {
+	font-size: 1.9em; padding: 0 0 10px 0; margin: 0 0 10px 0;
+	border-bottom: 1px solid #eee;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary table {
+	width: 100%; margin: 0; padding: 0; border: 0;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary td {
+	margin: 0; padding: 0; border: 0;
+	font-size: 12px;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary td.label {
+	text-align: left;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary td.value input {
+	text-align: right;
+	width: 90%;
+	background: none;
+	border: none;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary td.value span.currency {
+	font-size: 80%; color: #999;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary td.value span.discount {
+	font-style: italic;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary td.gap {
+	height: 10px;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary td.totals input{
+	border-top: 1px solid #818285;
+	border-bottom: 1px solid #818285;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	font-size: 14px; font-weight: bold; color: #666;
+	background: none;
+	border: none;
+	text-align: right;
+	width: 90%
+	}
+	
+#contentOnlineCourses div.sidebarItemSummary td.totals {
+	border-top: 1px solid #818285;
+	border-bottom: 1px solid #818285;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+        width: 175px;
+	}	
+
+#contentOnlineCourses div.sidebarItemSummary td.savings {
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+	color: #ff9900;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary p.currency {
+	padding: 0;
+	font-size: 11px; color: #666;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary div.footer {
+	margin: 0; padding: 10px 0 0 0;
+	}
+
+#contentOnlineCourses div.sidebarItemSummary div.footer p {
+	padding: 6px 0 0 0;
+	text-align: center;
+	}
+
+/*  ::  Page Styles  --  Online Courses  ::  Sidebar  ::  Order Summary  */
+
+#contentOnlineCourses div.sidebarOrderSummary {
+	position: relative; width: 200px; margin: 0 0 20px 0; padding: 14px;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary h2 {
+	font-size: 1.9em; padding: 0 0 10px 0; margin: 0 0 10px 0;
+	border-bottom: 1px solid #eee;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary table {
+	width: 100%; margin: 0; padding: 0; border: 0;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary td {
+	margin: 0; padding: 0; border: 0;
+	font-size: 12px;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary td.label {
+	text-align: left;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary td.value {
+	text-align: right;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary td.value span.currency {
+	font-size: 80%; color: #999;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary td.value span.discount {
+	font-style: italic;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary td.gap {
+	height: 10px;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary td.totals {
+	border-top: 1px solid #818285;
+	border-bottom: 1px solid #818285;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 14px; font-weight: bold; color: #666;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary td.savings {
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+	color: #ff9900;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary p.currency {
+	padding: 0;
+	font-size: 11px; color: #666;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary div.footer {
+	margin: 0; padding: 10px 0 0 0;
+	}
+
+#contentOnlineCourses div.sidebarOrderSummary div.footer p {
+	padding: 6px 0 0 0;
+	text-align: center;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Sidebar  ::  Bbb Online  */
+
+#contentOnlineCourses div.sidebarBbbOnline {
+	position: relative; width: 100%; padding: 4px 0 9px 0;
+	}
+
+#contentOnlineCourses div.sidebarBbbOnline img {
+	display: block; margin-left: 15px; width: 210px; height: 42px;
+	}
+
+
+/*  ::  Page Styles  --  Online Courses  ::  Sidebar  ::  Questions  */
+
+#contentOnlineCourses div.sidebarQuestions {
+	position: relative; width: 200px; margin: 15px 0 20px 0; padding: 14px;
+	border: 1px solid #D2D2D2;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+
+/*  ::  Page Styles  --  Course Catalog  */
+
+#courseCatalog {
+	position: relative; width: 100%;
+	}
+
+#courseCatalogIntro {
+	position: relative; width: 100%; height: 380px;
+	background-color: #000;
+        background-position: center;
+        background-repeat: no-repeat;
+	}
+
+#courseCatalogIntro-inner {
+	margin: 0 auto;
+	width: 980px;
+	overflow: hidden;
+	}
+
+#courseCatalogIntro div.shortdesc {
+	position: relative; left: 30px;  top: 20px; width: 380px; height: 380px;
+        float: left;
+	}
+
+#courseCatalogIntro h4 {
+	position: absolute; left: 45px; bottom: 60px; padding: 10px; width: 230px;
+	font: normal 12px arial, helvetica neue, helvetica, sans-serif; color: #ede200;
+	background: rgba(0,0,0,0.5);
+	}
+	
+#courseCatalogIntro h5 {
+	position: absolute; left: 45px; bottom: 25px; padding: 10px; width: 230px;
+	font: normal 12px arial, helvetica neue, helvetica, sans-serif; color: #ede200;
+	background: rgba(0,0,0,0.5);
+	}	
+
+#courseCatalogIntro div.video {
+	position: relative; top: 40px; width: 540px;
+        left: -20px;
+        float: right;
+	}
+#courseCatalogIntro div.video img {
+	height: 100%;
+	}
+
+#courseCatalogIntro div.video #flashplayer {
+	width: 480px; height: 288px;  margin: 0 0 10px 0;
+	}
+
+#courseCatalogIntro div.video ul {
+	position: relative; display: block; overflow: hidden; margin: 0; padding: 0; list-style: none; width: 480px;
+	}
+
+#courseCatalogIntro div.video ul li {
+	float: left;
+	font-size: 11px;
+	}
+
+#courseCatalogIntro div.video ul li a {
+	float: left; display: block; color: #fff; padding: 5px 12px; margin: 0 1px 0 0;
+	background: url(images/global-elements-color-rgba-0-0-0-50.png); background: rgba(0,0,0,0.5);
+	}
+
+#courseCatalogIntro div.video ul li a.active {
+	background: url(images/global-elements-color-rgba-0-0-0-75.png); background: rgba(0,0,0,0.75);
+	}
+
+
+#coursesCatalog div.courseCatalogPromotion {
+        padding: 4px 0;
+	text-align: center;
+	}
+
+#coursesCatalog div.courseCatalogPromotion img {
+/*	margin: 0 auto;*/
+
+	}
+#coursesCatalog div.courseCatalogPromotion a {
+/*	margin: 0 auto;*/
+        display: block;
+        height: 86px;
+}
+
+
+/*************************************************************************
+
+Linked Programs overlay
+
+**************************************************************************/
+#courseCatalogBody div.linked_programs_overlay {
+-moz-border-radius:15px;
+background-image: url(images/courses-images/background.png);
+border:6px solid #888888;
+/* clear:both; */
+/* float:right; */
+
+padding:10px 23px 20px 23px;
+/*position:absolute;
+right:px;
+top:19px;*/
+margin: auto;
+width:350px;
+border-radius:15px;
+z-index: 100000;
+/*background-color: rgba(0, 0, 0, 0.9);*/
+color: #fff;
+position: relative;
+right: 10px;
+}
+
+#courseCatalogBody div.sectionText div#description div.linked_programs_overlay h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#courseCatalogBody div.sectionText div#description div.linked_programs_overlay p,
+#courseCatalogBody div.sectionText div#description div.linked_programs_overlay li{
+    color: #fff;
+}
+
+#courseCatalogBody div.sectionText div#description div.linked_programs_overlay ul {
+    margin-top: 5px;
+    padding-top: 0px;
+}
+
+#courseCatalogBody div.sectionText div#description div.linked_programs_overlay strong {
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#courseCatalogBody div.linked_programs_overlay .linked_programs_overlay_close {
+display:block;
+text-indent:-5000px;
+cursor:pointer;
+width:30px;
+background:url(images/payment-overlay-close-big.png) no-repeat;
+height:34px;
+position:absolute;
+right:-16px;
+top:-18px;
+width:35px;
+}
+
+
+#courseCatalogBody div.overlay_container {
+
+   position: absolute;
+   left: 0px; top: 0px;
+   width: 100%; height: 100%;
+   z-index: 99999999;
+   margin-bottom: 10px;
+
+}
+
+#courseCatalogSidebar {
+	float: left; /* width: 214px; */ padding: 0 0px 0 20px;
+	margin-bottom: 50px;
+        height: 100%;
+	}
+
+#courseCatalogSidebar div.sidebarCourseMenu {
+	position: relative; width: 230px; overflow: hidden;
+	border-left: 1px solid #e0e0e0;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+        height: 100%;
+	border-top-left-radius: 10px; -moz-border-radius-topleft: 10px; -webkit-border-radius-topleft: 10px;
+        top: 35px;
+		
+	}
+ div.contentOnlineCourses div.sidebarCourseMenu {
+           border-right: 1px solid #e0e0e0;
+           border-bottom: 1px solid #e0e0e0;
+}
+#courseCatalogSidebar div.sidebarCourseMenu h2 {
+	background: #808080; padding: 8px 14px 6px 14px; margin: 0 0 15px 0;
+	font: normal 10px arial, helvetica neue, helvetica, sans-serif; color: #fff;
+	text-transform: uppercase;
+	-moz-border-radius-topleft: 10px;
+/*	-moz-border-radius-topright: 10px;*/
+/*	-moz-border-radius-bottomright: 0px;*/
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 10px;
+/*	border-top-right-radius: 10px;
+	border-bottom-right-radius: 0px;*/
+	border-bottom-left-radius: 0px;
+	}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul {
+	 margin: 0; padding: 0; padding: 0 15px 0px 0px; list-style: none;
+	border-bottom: 1px solid #e0e0e0;
+width: 100%;
+margin-bottom: 18px;
+	}
+
+
+#courseCatalogSidebar div.sidebarCourseMenu ul.sub_program {
+	 margin: 0; padding: 0;  list-style: none;
+width: 100%;
+border-bottom-style: none;
+margin-bottom: 0px;
+	}
+#courseCatalogSidebar div.sidebarCourseMenu ul.sub_program li a {
+            padding-left: 25px;
+            width: 90%;
+}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul.sub_program li a div span.arrow {
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul.included_courses li.title {
+            color: #64B42E;
+            font-size: 14px;
+            padding-left: 10px;
+            padding-top: 0px;
+            background-image: none;
+}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul.included_courses li {
+            font-size: 12px;
+            color: #666;
+            font-weight: normal;
+            list-style-type: none;
+            background: url(images/icon_arrow_next.png) no-repeat 20px 10px;
+            padding-top: 5px;
+            padding-left: 35px;
+
+
+}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul.last {
+	border: 0;
+	}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul li {
+	margin: 0px; padding: 0px 0px 0px 0px;
+	font: normal 10px arial, helvetica neue, helvetica, sans-serif; color: #000;
+	}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul li.title {
+padding-left: 10px;
+padding-bottom: 10px;
+font-weight: bold;
+}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul li.title {
+
+    color: #333;
+    font-size: 11px;
+}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul:first-child li.title:first-child {
+    margin-top: 50px;
+}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul li.title span.months {
+color: #666666;
+}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul li span {
+/*	color: #808080;*/
+	}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul li p {
+	font-size: 12px; color: #4c4c4c; line-height: 1.5; margin: 0; padding: 0;
+        padding-right: 3px;
+	}
+
+#courseCatalogSidebar div.sidebarCourseMenu ul li a {
+	display: block;
+margin: 0px;
+padding: 10px 30px 10px 10px;
+font-size: 12px;
+width: 100%;
+	}
+#courseCatalogSidebar div.sidebarCourseMenu ul li a div {
+width: 90%;
+}
+#courseCatalogSidebar div.sidebarCourseMenu ul li a:hover,
+#courseCatalogSidebar div.sidebarCourseMenu ul li a.selected {
+background-color: #E4E4E4;
+text-decoration: none;
+font-weight: bold;
+color: #333;
+}
+#courseCatalogBody {
+	float: left; width: 700px;
+/*        border-top: 1px solid #e0e0e0;*/
+	}
+
+#courseCatalogBody a.register {
+	display: block; width: 156px; height: 44px;
+	background: url(images/register_button.png) no-repeat -1px -51px;
+	text-indent: -9999px; outline: none;
+	}
+
+#courseCatalogBody a.register:hover {
+	background-position: -1px -2px;
+	}
+
+#courseCatalogBody div.sectionBreadcrumbsShare {
+	/*position: relative;*/ width: 100%; /* overflow: hidden;*/
+/*        padding-top: 20px;*/
+
+	}
+#courseCatalogBody div.sectionBreadcrumbsShare p {
+	position: relative;
+        left: -220px;
+        padding-left: 0px;
+        padding-top: 5px;
+	}
+#socialmedia #facebook-share {float: left; margin-right: 3px; clear: none; width: 70; height: 25px;}
+#courseCatalogBody div.sectionBreadcrumbsShare div#facebook-share {
+            float: left;
+            margin-right: 15px;
+}
+
+#courseCatalogBody div.sectionBreadcrumbsShare div#facebook-share span {
+line-height: 10px;
+}
+#courseCatalogBody div.sectionBreadcrumbsShare div.addthis {
+	float: right;
+        position: relative;
+/*        padding-top: 25px;
+        right: 90px;*/
+/*        top: 20px;
+        */
+        right: 25px;
+        padding-top: 5px;
+	}
+#courseCatalogBody div.sectionBreadcrumbsShare div#overview_addthis.addthis {
+	float: right;
+        position: relative;
+        top: 10px;
+        right: 3px;
+        padding-top: 0px;
+        z-index: 99999;
+}
+ #courseCatalogBody div.sectionBreadcrumbsShare div.addthis a.addthis_button_compact {
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 16px;
+        height: 28px;
+        padding-top: 2px;
+	}
+
+#courseCatalogBody div.sectionBreadcrumbsShare p {
+	font-size: 11px;
+	}
+
+#courseCatalogBody div.sectionOverview {
+	position: relative;
+/*        top: -10px;*/
+        padding: 0 0 0px 20px;
+        margin-bottom: -10px;
+
+        padding: 22px 19px;
+        overflow: hidden;
+        margin: 0 0 20px 0;
+/*        border: 1px solid #E0E0E0;*/
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-top-left-radius: 0px;
+        -moz-border-radius-topleft: 0px;
+        -webkit-border-radius-topleft: 0px;
+
+        padding-top: 5px;
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+	}
+#courseCatalogBody div.sectionOverview h2 {
+    font-size: 2.2em;
+    padding-bottom: 15px;
+}
+
+#courseCatalogBody div.sectionOverview h4 {
+    color: #64b42e;
+}
+#courseCatalogBody div.sectionOverview div.testimonial {
+	float: right; width: 300px; margin: 40px 0 0 40px; clear: right;
+	}
+
+#courseCatalogBody div.sectionOverview div.testimonial sup,
+#courseCatalogBody div.sectionOverview div.testimonial sub {
+	color: #5aa800;
+	}
+
+#courseCatalogBody div.sectionHelpMeChoose {
+	padding: 16px 19px; overflow: hidden; margin: 0 0 20px 0; border: 1px solid #e0e0e0;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+#courseCatalogBody div.sectionHelpMeChoose div.photo {
+	float: right; width: 182px; margin: 0 0 0 25px; padding: 5px 0 0 0;
+	}
+
+#courseCatalogBody div.sectionHelpMeChoose div.photo p {
+	margin: 0; padding: 0;
+	}
+#courseCatalogBody div#under-overview {
+    position: relative;
+    top: -10px;
+    margin-left: 20px;
+}
+#courseCatalogBody div.sectionDivider {
+	position: relative; width: 100%; height: 1px; margin: 0 0 15px 0; padding: 0;
+	border-top: 1px solid #c9c8c8;
+	}
+
+#courseCatalogBody div.sectionDivider hr {
+	display: none;
+	}
+
+#courseCatalogBody div.sectionGroupHeading {
+/*    margin-left: 20px;*/
+    padding-bottom: 10px;
+}
+
+#courseCatalogBody div.sectionCourseItemShort {
+	padding: 16px 19px; overflow: hidden; margin: 0 0 20px 0;
+	border: 1px solid #e0e0e0;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+        width: 95%;
+	}
+
+#courseCatalogBody div.sectionCourseItemShort h2 {
+	margin: 0; padding: 0 0 20px 0;
+	font-size: 24px; font-weight: bold;
+	}
+
+#courseCatalogBody div.sectionCourseItemShort div.photo {
+	float: left; margin: 0 20px 0 0;
+	}
+
+#courseCatalogBody div.sectionCourseItemShort div.photo a.register {
+	margin: 5px auto;
+	}
+
+#courseCatalogBody div.sectionCourseItemShort div.photo p {
+	width: 100%;
+        text-align: center;
+        font-size: 13px;
+	}
+
+#courseCatalogBody div.sectionCourseItemShort div.text {
+	overflow: hidden; padding: 0 10px;
+	}
+
+#courseCatalogBody div.sectionCourseItemShort div.text ul,
+#courseCatalogBody div.sectionCourseItemShort div.text li {
+	font-size: 12px;
+	}
+
+#courseCatalogBody div.sectionCourseItem {
+	padding: 22px 19px; overflow: visible; margin: 0 0 20px 0;
+	border: 1px solid #e0e0e0;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+        border-top-left-radius: 0px; -moz-border-radius-topleft: 0px; -webkit-border-radius-topleft: 0px;
+        clear: both;
+        padding-bottom: 45px;
+	}
+
+#courseCatalogBody div.sectionCourseItem h2 {
+	margin: 0; padding: 0 0 20px 0;
+	font-size: 24px; font-weight: bold;
+        line-height: 29px;
+	}
+#courseCatalogBody div.sectionCourseItem div#faq_contact {
+    position: relative;
+    float: right;
+    margin-left: 0px;
+    clear: right;
+    top: 25px;
+}
+
+#courseCatalogBody div.sectionCourseItem div#faq_contact span {
+    color: #000;
+}
+
+
+
+#courseCatalogBody div.sectionCourseItem div.photo {
+	float: right; margin: 0 5px 0 20px;
+	}
+#courseCatalogBody div.sectionCourseItem div.photo div.location-price {
+	margin-bottom: 10px;
+        text-align: right;
+        font-size: 13px;
+        font-weight: normal;
+        width: 100%;
+	}
+
+#courseCatalogBody div.sectionCourseItem div.photo div.location-price span.save_amount {
+            color: #900;
+            font-size: 12px;
+}
+#courseCatalogBody div.sectionCourseItem div.photo div.location-price:last-child {
+    margin-bottom: 20px;
+}
+#courseCatalogBody div.sectionCourseItem div.photo div#sale-info {
+	color: #FF9900;
+        font-size: 13px;
+        text-align: right;
+        font-weight: normal;
+        width: 220px;
+	}
+#courseCatalogBody div.sectionCourseItem div.photo div#payment-plan {
+        text-align: right;
+        font-size: 13px;
+        font-weight: normal;
+        width: 100%;
+        margin-bottom: 5px;
+	}
+#courseCatalogBody div.sectionCourseItem div.photo span.pp_price {
+    display: none;
+}
+#courseCatalogBody div.sectionCourseItem div.photo a.register {
+	float: right; margin: 0;
+	}
+
+#courseCatalogBody div.sectionCourseItem div.photo p {
+	clear: right; text-align: right; font-size: 13px;
+	}
+#courseCatalogBody div.sectionCourseItem div.photo .overlay .copy p {
+	clear: left; text-align: left; font-size: 13px;
+	}
+
+#courseCatalogBody div.sectionCourseItem div.photo b {
+	color: #333;
+	}
+
+#courseCatalogBody div.sectionCourseItem div.photo p span {
+	font-size: 11px;
+	}
+#courseCatalogBody div.photo img {
+     -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+}
+#courseCatalogBody div.sectionCourseItem div.text {
+	overflow: visible; padding: 0 10px; z-index: 999999; width: 375px;
+	}
+
+#courseCatalogBody div.sectionCourseItem div.text h3,
+#courseCatalogBody div#featuredCourse div.text h3{
+	margin: 0; padding: 0 0 15px 0;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 23px;
+	}
+
+#courseCatalogBody div.sectionCourseItem div.text ul{
+	font-size: 12px;
+}
+
+.linked_programs {
+	/*list-style-image: url(images/green_arrow_list4.png);*/
+
+}
+#courseCatalogBody div.sectionCourseItem div.text li {
+	font-size: 12px;
+	
+	} 
+
+#courseCatalogBody div.sectionCourseItem p.disclaimer {
+	clear: both; margin: 0; padding: 10px 0 0 0;
+	font-size: 11px; color: #666; font-style: italic; line-height: 1.1;
+	}
+
+#courseCatalogBody div.sectionText {
+        font-size: 12px;
+	position: relative; margin: 0; padding: 0 0 20px 0;
+        z-index: 999999;
+}
+
+ #courseCatalogBody div.sectionText p,
+div.text_description div.more p {
+        font-size: 12px;
+        padding-bottom: 0px;
+        padding-top: 10px;
+	}
+#courseCatalogBody div.sectionText div#description p,
+#courseCatalogBody div.sectionText div#description h2,
+#courseCatalogBody div.sectionText div#description ul,
+#courseCatalogBody div.sectionText div#description h3{
+        padding-left: 4px;
+	}
+
+
+#courseCatalogBody div.sectionText div#description div#included_courses_box {
+    display: none;
+    border-top: 1px solid #C9C8C8;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+
+#courseCatalogBody div.sectionText div#description div#included_courses_box div.next_course {
+    clear: both;
+    float: right;
+    background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_arrow_next_yellow.png")  no-repeat 75px 5px;
+    padding-right: 20px;
+    /* margin-top: 5px; */
+
+}
+
+
+
+#courseCatalogBody div.sectionText div#description ul,
+#courseCatalogBody div.sectionCourseItemShort div.text ul,
+div.text_description div.more ul{
+    padding-top: 10px;
+}
+#courseCatalogBody div.sectionText strong {
+        color: #333333;
+        font-size: 15px;
+        font-weight: bold;
+	}
+#courseCatalogBody div.sectionText h2,
+div.text_description div.more h2 {
+	color: #64b42e; font-size: 18px;
+        padding-top: 15px;
+        border-top: 1px solid #C9C8C8;
+        margin-top: 15px;
+        padding-bottom: 0px;
+        line-height: 18px;
+	}
+
+#courseCatalogBody div.sectionCourseItem div.text div.sectionText h3,
+#courseCatalogBody div#featuredCourse div.text div.sectionText h3,
+div.text_description div.more h3{
+	margin-top: 20px;
+        padding-bottom: 0px;
+        color: #333333;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 15px;
+	}
+
+#courseCatalogBody div.sectionText li {
+	margin-left: 0px;
+        padding-left: 0px;
+        color: #666;
+        font-size: 13px;
+        font-weight: normal;
+	}
+
+#courseCatalogBody div.sectionText ul.subheading li {
+	font-size: 14px; font-weight: bold;
+	}
+
+#courseCatalogBody div.sectionText p.back2top {
+	padding: 10px 0 0 0;
+	}
+
+#courseCatalogBody div.sectionText p.back2top a {
+	display: block; width: 20px; height: 20px;
+	background: url(http://www.dubspot.com/wp-content/themes/dubspotheme/images/icon_arrow_top.png) no-repeat 0px 0px;
+	text-indent: -9999px; outline: none;
+	}
+
+#courseCatalogBody div.sectionBreadcrumbsFooter {
+	padding: 10px 0; margin: 0 0 40px 0;
+	border-top: 1px solid #c9c8c8;
+	border-bottom: 1px solid #c9c8c8;
+
+	}
+
+#courseCatalogBody div.sectionBreadcrumbsFooter p {
+	margin: 0; padding: 0;
+	font-size: 11px;
+	}
+
+#content .content-inner {
+    overflow: visible;
+}
+
+/*  ::  Page Styles  --  Overlay (resets overriden styles)  */
+
+.overlay {
+    background: none repeat scroll 0 0 white;
+    border: 6px solid #888888;
+    border-radius: 15px 15px 15px 15px;
+    bottom: 10px;
+    clear: both;
+    float: right;
+    padding: 20px 2px 3px 23px;
+    position: absolute;
+	margin-right: -300px;
+    right: 50%;
+    width: 603px;
+    z-index: 1000000;
+    height: 200px;
+}
+
+#courseRegisterForm .overlay {
+	left: auto;
+	top: auto;
+    bottom: 10px;
+    right: -40px;
+	margin-right: 0px;
+}
+
+.overlay .payment_plan_close {
+    background: url("http://www.dubspot.com/wp-content/themes/dubspotheme/images/payment-overlay-close-big.png") no-repeat scroll 0 0 transparent !important;
+    cursor: pointer !important;
+    display: block !important;
+    height: 34px !important;
+    position: absolute !important;
+    right: -16px !important;
+    text-indent: -5000px !important;
+    top: -18px !important;
+    width: 35px !important;
+}
+.overlay .copy {
+    float: left !important;
+    width: 42% !important;
+}
+.overlay img {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+}
+.overlay .copy p,
+.overlay .paymentcontact {
+    font-size: 13px !important;
+}
+.overlay .copy p {
+    clear: left !important;
+    display: block !important;
+    float: left !important;
+    margin: 0 !important;
+    padding: 0 17px 10px 0 !important;
+}
+.overlay h1 {
+    font-size: 14px !important;
+    padding: 0 0 8px !important;
+}
+.overlay div.payments {
+    float: left !important;
+    font-size: 13px !important;
+    width: 53% !important;
+}
+.overlay .text {
+    float: left !important;
+}
+.overlay .number {
+    float: right !important;
+}
+
+#contentOnlineCourses div.sectionCourse div.payment .overlay .payment,
+.overlay .payment {
+    clear: left !important;
+    margin: -1px 0 0 0 !important;
+    padding: 6px !important;
+    width: 100% !important;
+	border-top: 0 !important;
+}
+#contentOnlineCourses div.sectionCourse div.payment .overlay .due_today,
+.overlay .due_today {
+    background: none repeat scroll 0 0 #FFFFCC !important;
+    border: 1px solid #FFCC00 !important;
+	border-top: 1px solid #FFCC00 !important;
+    clear: both !important;
+    color: #CC0000 !important;
+    float: left !important;
+    font-weight: bold !important;
+    padding: 6px !important;
+}
+
+.overlay .number {
+    font-weight: bold !important;
+}
+.overlay .total {
+    font-weight: bold !important;
+}
+.overlay .paymentcontact {
+    clear: both !important;
+    float: right !important;
+    font-size: 13px !important;
+    padding: 0 20px 9px 29px !important;
+}
+.overlay .text {
+    font-size: 12px !important;
+}
+.overlay .payments .due_today {
+    color: #CC0000 !important;
+}
+.overlay h1 {
+    font-size: 13px !important;
+    margin: 0 !important;
+    outline: 0 none !important;
+    text-align: left !important;
+}
+.overlay p {
+    font-size: 13px !important;
+    line-height: 1.7em !important;
+    padding-right: 12px !important;
+}
+.overlay text {
+    font-size: 13px !important;
+    font-weight: normal !important;
+    line-height: 1.3em !important;
+}
+.overlay .payments {
+    font-size: 12px !important;
+    margin-bottom: 4px !important;
+}
+.overlay .paymentcontact {
+    color: #666666 !important;
+    font-size: 9px !important;
+}
+.overlay .paymentcontact a {
+    color: #990000 !important;
+}
+.overlay .total {
+    font-weight: bold !important;
+    margin-top: 4px !important;
+}
+.overlay {
+    font-size: 13px !important;
+}
+.overlay .payments {
+    font-size: 12px !important;
+    padding: 3px 0 !important;
+    width: 56% !important;
+}
+
+/* courses page fix */
+
+#overlay_courses .overlay {
+	position: absolute !important;
+	top: 50% !important;	
+	left: 50% !important;
+	z-index: 900000000 !important;
+}
