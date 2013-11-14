@@ -66,7 +66,7 @@
 				<fieldset>
 					<div class="subscribe">
 						<input type="text" name="ea" size="20" value="your email" class="tfield">
-						<input class="button" id="submit" type="image" src="http://dubspot.com/wp-content/themes/dubspotheme/images/footer_signup_button.png">
+						<input class="ds-button" id="submit" type="image" src="http://dubspot.com/wp-content/themes/dubspotheme/images/footer_signup_button.png">
 						<input type="hidden" name="llr" value="ta9we5bab">
 						<input type="hidden" name="m" value="1101596944403">
 						<input type="hidden" name="p" value="oi">

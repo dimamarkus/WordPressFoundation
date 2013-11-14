@@ -2242,6 +2242,7 @@ font-size: 12px;
 	font-size: 14px;
 }
 /* 	FORM
+
 -------------------------------- */
 form div.subscribe {
 	width: 280px;
@@ -2259,7 +2260,7 @@ form div.subscribe input.tfield {
 form div.subscribe br {
 	clear: left;
 }
-form div.subscribe input.button {
+form div.subscribe input.ds-button {
 	margin: 15px 0 0;
 }
 /*      REGISTRATION PAGE
@@ -3858,9 +3859,15 @@ body {
 
 #footer fieldset {
 	border: none;
+	padding: 0;
+	margin: 0;
 }
 
 iframe {
 	height: 0;
 	width: 100%;
+}
+
+.ds-button {
+	border: none;
 }

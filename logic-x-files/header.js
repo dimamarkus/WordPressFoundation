@@ -132,15 +132,12 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $( "#checkout-button" ).click(function() {
-setTimeout(
-  function(){
-        $("iframe").show(function(){
+    $("iframe").show(function(){
         $(this).animate({height:800},200);
       },function(){
         $(this).animate({height:800},200);
       });
     $('iframe').attr('src', 'http://shoptest.dubspot.com/checkout');
-  }, 5000);
   });
 });
 

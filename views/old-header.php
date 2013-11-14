@@ -31,27 +31,27 @@
           <ul>            
             <li>
               <a href="http://www.dubspot.com/music-foundations/">
-                <img id="hdrNavProg1" src="/wp-content/themes/dubspotheme/images/nav/music_foundations_up.png"    width="34" height="33">
+                <img id="hdrNavProg1" src="http://dubspot.com/wp-content/themes/dubspotheme/images/nav/music_foundations_up.png"    width="34" height="33">
               </a>
             </li>
             <li>
               <a href="http://www.dubspot.com/dj/">
-                <img id="hdrNavProg3" src="/wp-content/themes/dubspotheme/images/nav/dj_up.png"                   width="34" height="33">
+                <img id="hdrNavProg3" src="http://dubspot.com/wp-content/themes/dubspotheme/images/nav/dj_up.png"                   width="34" height="33">
               </a>
             </li>
             <li>
               <a href="http://www.dubspot.com/music-production/">
-                <img id="hdrNavProg4" src="/wp-content/themes/dubspotheme/images/nav/music_production_up.png"     width="34" height="33">
+                <img id="hdrNavProg4" src="http://dubspot.com/wp-content/themes/dubspotheme/images/nav/music_production_up.png"     width="34" height="33">
               </a>
             </li>
             <li>
               <a href="http://www.dubspot.com/sound-design/">
-                <img id="hdrNavProg5" src="/wp-content/themes/dubspotheme/images/nav/sound_design_up.png"         width="34" height="33">
+                <img id="hdrNavProg5" src="http://dubspot.com/wp-content/themes/dubspotheme/images/nav/sound_design_up.png"         width="34" height="33">
               </a>
             </li>
             <li>
               <a href="http://www.dubspot.com/mixing-mastering/">
-                <img id="hdrNavProg6" src="/wp-content/themes/dubspotheme/images/nav/mixing_and_mastering_up.png" width="34" height="33">
+                <img id="hdrNavProg6" src="http://dubspot.com/wp-content/themes/dubspotheme/images/nav/mixing_and_mastering_up.png" width="34" height="33">
               </a>
             </li>
           </ul>

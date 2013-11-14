@@ -25,7 +25,7 @@ include 'views/old-header.php'; ?>
           <input type="hidden" name="id" value="392337040" />
           <input type="hidden" name="return_to" value="back" />
           <input type="submit" value="Buy Now" id="checkout-button"  class="small rounded button"/>
-        </form>
+        </form> 
       </li>
     </ul>
   </div>
