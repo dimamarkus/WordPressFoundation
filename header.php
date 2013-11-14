@@ -70,7 +70,7 @@
 	    	<li class="divider hide-for-small"></li>
 				<?php
 					if ( is_user_logged_in() ) {
-					    echo '<li><a href="'.wp_logout_url( get_permalink() ).'" title="Logout" class="hunderline">Logout</a></li>';
+					    echo '<li><a href="'.wp_logout_url( home_url() ).'" title="Logout" class="hunderline">Logout</a></li>';
 					} else {
 					    echo '<li><a href="/login" title="Login" class="hunderline">Login</a></li>';
 							echo '<li><a href="/register">Register</a></li>';
