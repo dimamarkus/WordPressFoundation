@@ -3871,3 +3871,28 @@ iframe {
 .ds-button {
 	border: none;
 }
+
+.pricing-table .cta-button.login-wall {
+	padding-bottom: 20px;
+}
+
+.user-modal.reveal-modal {
+	z-index: 1000;
+	text-align: center;
+}
+
+.user-modal #user-name, .user-modal #password {
+	margin: 0 auto;
+	width: 35%;
+}
+
+.user-modal .submit.button {
+	display: block;
+	margin: 16px auto;
+	background-color: #2BCB3E;
+	border-color: #50A122;
+}
+
+.user-modal .remember-me, .user-modal label[for="remember-me"] {
+	display: inline-block;
+}
