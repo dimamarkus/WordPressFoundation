@@ -22,10 +22,11 @@ include 'views/old-header.php'; ?>
       <li class="bullet-item">Open Enrollment</li>
       <li class="cta-button">
         <form action="http://shoptest.dubspot.com/cart/add" method="post">
-          <input type="hidden" name="id" value="392337040" />
+          <input type="hidden" name="id" value="393895260" />
           <input type="hidden" name="return_to" value="back" />
-          <input type="submit" value="Buy Now" id="checkout-button"  class="small rounded button"/>
+          <input type="submit" value="Add To Cart" class="small radius button"/>
         </form> 
+        <a href="http://shoptest.dubspot.com/checkout" class="small radius button" id="checkout-button"  target="checkout">Checkout</a>
       </li>
     </ul>
   </div>
@@ -33,7 +34,7 @@ include 'views/old-header.php'; ?>
 
 <div class="row checkout-row">
   <div class="large-12 columns">
-    <iframe src="checkout" name="checkout"></iframe>
+    <iframe src="" name="checkout" id="checkout-iframe"></iframe>
   </div>
 </div>
 

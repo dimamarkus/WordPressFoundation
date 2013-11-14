@@ -91,8 +91,11 @@
 <!--=========================    end of FOOTER    ===========================-->
 
 
-  <script src="<?php echo get_stylesheet_directory_uri() ?>/logic-x-files/jquery.min.1-10-2.js"></script>
-  <script src="<?php echo get_stylesheet_directory_uri() ?>/logic-x-files/header.js"></script>
+  <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() ?>/logic-x-files/jquery.min.1-10-2.js"></script>
+  <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() ?>/logic-x-files/header.js"></script>
+
+
+
 
 </body>
 </html>

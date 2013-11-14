@@ -9,7 +9,6 @@
 
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/logic-x-files/style.css" />
 
-  <script src="js/vendor/custom.modernizr.js"></script>
 <?php wp_head(); ?>
 </head>
 <body>

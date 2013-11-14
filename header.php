@@ -72,7 +72,8 @@
 					if ( is_user_logged_in() ) {
 					    echo '<li><a href="'.wp_logout_url( get_permalink() ).'" title="Logout" class="hunderline">Logout</a></li>';
 					} else {
-					    echo '<li><a href="'.wp_login_url( get_permalink() ).'" title="Login" class="hunderline">Login</a></li>';
+					    echo '<li><a href="/login" title="Login" class="hunderline">Login</a></li>';
+							echo '<li><a href="/register">Register</a></li>';
 					}
 					?>
 	    </ul>

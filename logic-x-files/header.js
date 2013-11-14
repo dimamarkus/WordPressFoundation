@@ -1,7 +1,7 @@
 
+
 $(document).ready(function() {
 
-  console.log('test');
 
   $("#hdrNavProg1").mouseover(function()
   {
@@ -127,21 +127,52 @@ $(document).ready(function() {
   else if (currentURL.substr(currentURL.length - 4) === "com/" || currentURL.substr(currentURL.length - 5) === "com/#") {
   $("a[href='http://www.dubspot.com']").parent(".nav-inner .menu .menu li").highlight();
   }
+
+
 });
 
 
+
+// Clicking the checkout button reveals the cart page in an iframe
+
 $(document).ready(function() {
+
+  var iframe = $("#checkout-iframe");
+
+
   $( "#checkout-button" ).click(function() {
     $("iframe").show(function(){
         $(this).animate({height:800},200);
       },function(){
         $(this).animate({height:800},200);
       });
-    $('iframe').attr('src', 'http://shoptest.dubspot.com/checkout');
+
+
+    // Upon loading, we need to hide the cancel-purchase element
+      console.log($('#checkout-iframe').contents().find('#cancel-purchase'));
+
   });
-});
 
 
-$(document).ready(function(){
 
 });
+
+// $('#checkout-iframe').load(function()
+// {
+//   // $('#checkout-iframe').contents().find('#cancel-purchase').hide();
+//   console.log($('#checkout-iframe').contents().find('#cancel-purchase'));
+
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
