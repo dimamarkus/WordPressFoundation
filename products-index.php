@@ -33,6 +33,7 @@ get_header(); ?>
           <a href="http://shoptest.dubspot.com/checkout" class="button radius">Checkout
 
           </a>
+
  
         </div>
  
