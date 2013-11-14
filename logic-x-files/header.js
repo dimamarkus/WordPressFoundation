@@ -51,42 +51,42 @@ $(document).ready(function() {
   {
     $("#hdrNavProgText").html("");
     $("#hdrNavProg1 ").attr({
-        src: "/wp-content/themes/dubspotheme/images/nav/music_foundations_up.png"
+        src: "http://dubspot.com/wp-content/themes/dubspotheme/images/nav/music_foundations_up.png"
       });
   });
   $("#hdrNavProg2").mouseout(function()
   {
     $("#hdrNavProgText").html("");
     $("#hdrNavProg2 ").attr({
-        src: "/wp-content/themes/dubspotheme/images/nav/maschine_up.png"
+        src: "http://dubspot.com/wp-content/themes/dubspotheme/images/nav/maschine_up.png"
       });
   });
   $("#hdrNavProg3").mouseout(function()
   {
     $("#hdrNavProgText").html("");
     $("#hdrNavProg3 ").attr({
-        src: "/wp-content/themes/dubspotheme/images/nav/dj_up.png"
+        src: "http://dubspot.com/wp-content/themes/dubspotheme/images/nav/dj_up.png"
       });
   });
   $("#hdrNavProg4").mouseout(function()
   {
     $("#hdrNavProgText").html("");
     $("#hdrNavProg4 ").attr({
-        src: "/wp-content/themes/dubspotheme/images/nav/music_production_up.png"
+        src: "http://dubspot.com/wp-content/themes/dubspotheme/images/nav/music_production_up.png"
       });
   });
   $("#hdrNavProg5").mouseout(function()
   {
     $("#hdrNavProgText").html("");
     $("#hdrNavProg5 ").attr({
-        src: "/wp-content/themes/dubspotheme/images/nav/sound_design_up.png"
+        src: "http://dubspot.com/wp-content/themes/dubspotheme/images/nav/sound_design_up.png"
       });
   });
   $("#hdrNavProg6").mouseout(function()
   {
     $("#hdrNavProgText").html("");
     $("#hdrNavProg6 ").attr({
-        src: "/wp-content/themes/dubspotheme/images/nav/mixing_and_mastering_up.png"
+        src: "http://dubspot.com/wp-content/themes/dubspotheme/images/nav/mixing_and_mastering_up.png"
       });
   });
 });
@@ -99,7 +99,7 @@ $(document).ready(function() {
       if($(this).hasClass("children") === true){
         // This avoids allowing child-menus from using this script
       }else{
-        $(this).css('background-image', 'url(/wp-content/themes/dubspotheme/images/nav/yellow_back_hover.png)');
+        $(this).css('background-image', 'url(http://dubspot.com/wp-content/themes/dubspotheme/images/nav/yellow_back_hover.png)');
         $(this).find('a').css('color','white');
       }
   };
