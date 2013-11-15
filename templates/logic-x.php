@@ -1,9 +1,9 @@
 <?php
 /*
-Template Name: The Shop Index
+Template Name: The Logic Course
 */
 
-include 'views/old-header.php'; ?>
+include 'template_modules/logic-header.php'; ?>
 
 
 
@@ -108,4 +108,4 @@ include 'views/old-header.php'; ?>
 
 
 
-<?php include 'views/old-footer.php' ?>
+<?php include 'template_modules/logic-footer.php' ?>
